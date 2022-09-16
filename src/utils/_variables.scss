@@ -1,14 +1,15 @@
-$main-color: #F0F1F1;
-$numbers-color: #5E5322;
-$hero-color: #FAD648;
-$column-color: #737373;
-$text-color: #3C3C3C;
+$color-white: #ffffff;
+$color-green: #004e63;
+$color-green-light: #006e8c;
+$color-column: #c4c4c4;
+$color-text: #232323;
 
-$size-base-font: 14px;
+$size-base-font: 18px;
 
 $mobile-width: 767px;
 $tablet-width: 989px;
 $desktop-width: 1489px;
+$full-hd: 1920px;
 
 $font-family: 'IBM-Plex-Sans', sans-serif;
 
@@ -18,13 +19,13 @@ $spacing-lg: 69px;
 $spacing-xl: 92px;
 
 @mixin base-width {
-    max-width: $desktop-width;
+    max-width: $full-hd;
     margin-left: auto;
     margin-right: auto;
-    @media only screen and (max-width: $tablet-width) {
+    @media only screen and (max-width: $desktop-width) {
         & {
-            margin-left: 5vw;
-            margin-right: 5vw;
+            margin-left: 7vw;
+            margin-right: 7vw;
         }
     }
     @media only screen and (max-width: 1300px) {
