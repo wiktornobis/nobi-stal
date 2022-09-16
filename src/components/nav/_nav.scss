@@ -1,0 +1,17 @@
+@import "/src/utils/variables";
+
+.nav_menu {
+    &_first_column {
+        display: flex;
+        justify-content: center;
+        gap: $spacing-lg;
+        .first_container {
+            display: flex;
+            gap: 10px;
+        }
+        .second_container {
+            display: flex;
+            gap: 10px;
+        }
+    }
+}
