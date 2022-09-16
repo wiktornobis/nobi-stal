@@ -17,4 +17,10 @@
     @content;
   }
 }
+@mixin full-hd {
+  @media only screen and (max-width: $full-hd) {
+    @content;
+  }
+}
+
 

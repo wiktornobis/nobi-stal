@@ -1,17 +1,90 @@
 @import "/src/utils/variables";
+@import "/src/utils/breakpoints";
 
 .nav_menu {
     &_first_column {
         display: flex;
         justify-content: center;
+        align-items: center;
         gap: $spacing-lg;
+        background-color: $color-green;
+        height: 30px;
         .first_container {
             display: flex;
+            align-items: center;
             gap: 10px;
+            &_text {
+                font-size: 12px;
+            }
         }
         .second_container {
             display: flex;
+            align-items: center;
             gap: 10px;
+            &_text {
+                font-size: 12px;
+            }
+             &_icon {
+                font-size: 12px;
+            }
+        }
+    }
+    &_second_column {
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+        height: 100px;
+        background-color: $color-green;
+        margin-top: 1px;
+        
+        &_logo {
+            display: flex;
+            align-items: center;
+            padding-left: $spacing-lg;
+            @include mobile {
+                justify-content: flex-end;
+                padding-right: $spacing-lg;
+            }
+        }
+        &_menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: $spacing-md;
+            padding-right: $spacing-xl;
+            @include mobile {
+                display: none;
+            }
+            @include full-hd {
+                padding-right: 180px;
+            }
+            @include desktop {
+                padding-right: 140px;
+            }
+            @include tablet {
+                padding-right: 100px;
+            }
+            
+            
+            &_link a {
+                font-size: 24px;
+                position: relative;
+                &::after{
+                    content: '';
+                    width: 100%;
+                    height: 3px;
+                    background-color: rgb(249, 249, 249);
+                    border-radius: 4px;
+                    position: absolute;
+                    left: 0;
+                    top: 35px;
+                    transform: scaleX(0);
+                    transform-origin: left;
+                    transition: transform .25s ease;
+                  }
+                  &:hover::after{
+                    transform: scaleX(1);
+                  }
+            }
         }
     }
 }
