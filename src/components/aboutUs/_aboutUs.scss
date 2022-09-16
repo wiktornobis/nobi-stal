@@ -1,0 +1,13 @@
+@import "./src/utils/variables";
+@import "./src/utils/breakpoints";
+
+.about {
+    margin-top: $spacing-xxl;
+ &_text {
+    color: $color-text;
+    margin: $spacing-md 0;
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: 300;
+ }
+}

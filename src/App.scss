@@ -53,11 +53,23 @@ body {
   }
   max-width: $full-hd;
   margin: 0 auto;
+  .general-container {
+    @include base-width()
+  }
 }
 a {
   text-decoration: none;
   color: unset;
 }
+h2 {
+  font-size: 40px;
+  color: $color-text;
+}
+h3 {
+  font-size: 32px;
+  color: $color-text;
+}
+
 
 button{
   border: none;

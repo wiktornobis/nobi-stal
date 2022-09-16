@@ -17,27 +17,28 @@ $spacing-sm: 23px;
 $spacing-md: 46px;
 $spacing-lg: 69px;
 $spacing-xl: 92px;
+$spacing-xxl: 150px;
 
 @mixin base-width {
     max-width: $full-hd;
-    margin-left: auto;
-    margin-right: auto;
-    @media only screen and (max-width: $desktop-width) {
+    margin-left: $spacing-xl;
+    margin-right: $spacing-xl;
+    @media only screen and (min-width: $desktop-width) and (max-width: 1920px){
         & {
-            margin-left: 7vw;
-            margin-right: 7vw;
+            margin-left: $spacing-lg;
+            margin-right: $spacing-lg;
         }
     }
     @media only screen and (max-width: 1300px) {
         & {
-            margin-left: 3vw;
-            margin-right: 3vw;
+            margin-left: $spacing-md;
+            margin-right: $spacing-md;
         }
     }
     @media only screen and (max-width: 1100px) {
         & {
-            margin-left: 1vw;
-            margin-right: 1vw;
+            margin-left: $spacing-md;
+            margin-right: $spacing-md;
         }
     }
     @media only screen and (max-width: $mobile-width) {
@@ -45,7 +46,7 @@ $spacing-xl: 92px;
             margin-left: 0;
             margin-right: 0;
             width: 100%;
-            padding: 0 $spacing-sm;
+            margin: 0 $spacing-sm;
         }
     }
 }

@@ -8,7 +8,7 @@
 
   &__toggle {
     &--icon {
-      font-size: 2.5rem;
+      font-size: 3.5rem;
       position: absolute;
       left: 1.8rem;
       top: 1.5rem;
@@ -18,13 +18,16 @@
   &__menu {
     display: flex;
     background: none;
+    & svg.svg-inline--fa.fa-bars {
+      font-size: 28px;
+      padding-left: $spacing-sm;
+    }
+   
 
     &--items {
       width: 100%;
     }
   }
-
-
   @media only screen and (min-width: $desktop-width) {
     display: none;
   }
@@ -55,14 +58,21 @@
 .nav-menu.active {
   top: 0;
   transition: 350ms;
+  & .svg-inline--fa {
+    font-size: 28px;
+    padding-left: 10px;
+  }
 }
 .nav-text {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 8rem;
-  padding-left: 2rem;
   height: 8rem;
+  span {
+    font-size: 24px;
+  }
+
 }
 .nav-text a {
   color: black;
@@ -73,16 +83,13 @@
   justify-content: center;
   margin-top: 6rem;
   &:hover {
-    background-color: rgb(209, 209, 209);
+    background-color: $color-white;
+    padding: 20px 0;
+    width: 100%;
+    padding-left: 0;
+    span {
+      color: black;
+    }
   }
 }
-.nav-text a svg {
-  
-}
 
-span {
-  font-size: 24px;
-  padding-right: $spacing-sm;
-  // position: relative;
-  // right: 130px;
-}
