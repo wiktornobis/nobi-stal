@@ -1,0 +1,17 @@
+@import "./src/utils/variables";
+@import "./src/utils/breakpoints";
+
+.products_box {
+    margin-top: $spacing-xxl;
+    &_title {
+        margin-bottom: $spacing-sm;
+    }
+}
+
+.products { 
+    margin: 100px 0;
+    .product {
+        padding: 10px;
+    }    
+}
+

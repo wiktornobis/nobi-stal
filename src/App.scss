@@ -10,7 +10,7 @@
   box-sizing: border-box;
   font-weight: 400;
   font-family: $font-family;
-  color: $color-white;
+  // color: $color-white;
   font-size: $size-base-font;
 }
 
@@ -66,8 +66,9 @@ h2 {
   color: $color-text;
 }
 h3 {
-  font-size: 32px;
+  font-size: 30px;
   color: $color-text;
+  font-weight: 300;
 }
 
 
@@ -78,6 +79,45 @@ button{
 
 li {
   list-style: none;
+}
+.defer-image {
+  display: block;
+  width: 100%;
+}
+/* Image aspect ratios - % is relative to width. */
+.image-ratio\:200   .img { padding-top: 200%; }
+.image-ratio\:190  .img { padding-top: 190%; }
+.image-ratio\:180  .img { padding-top: 180%; }
+.image-ratio\:160  .img { padding-top: 160%; }
+.image-ratio\:150   .img { padding-top: 150%; }
+.image-ratio\:133   .img { padding-top: 133%; }
+.image-ratio\:100   .img { padding-top: 100%; }
+.image-ratio\:75   .img { padding-top: 75%; }
+.image-ratio\:67   .img { padding-top: 67%; }
+.image-ratio\:61  .img { padding-top: 61%; }
+.image-ratio\:56  .img { padding-top: 56%; }
+.image-ratio\:54  .img { padding-top: 54%; }
+.image-ratio\:50   .img { padding-top: 50%; }
+.image-ratio\:25   .img { padding-top: 25%; }
+
+.defer-image.is-added,
+.defer-image.is-loading {
+  position: relative;
+  background: transparent;
+
+  // &:after {
+  //     content: " ";
+  //     display: block;
+  //     width: 50px; height: 50px;
+  //     left: 50%;
+  //     top: 50%;
+  //     margin-left: -25px;
+  //     margin-top: -25px;
+  //     background: url('@{root-url}/img/image-loader.gif') no-repeat;
+  //     background-size: contain;
+  //     position: absolute;
+
+  // }
 }
 
 // .home {

@@ -1,0 +1,52 @@
+@import "./src/utils/variables";
+@import "./src/utils/breakpoints";
+
+.information {
+    &_first_container {
+        display: flex;
+        align-items: center;
+        &_title {
+            font-size: 28px;
+            color: $color-green-light;
+        }
+        &_text {
+            color: $color-text;
+            padding-left: $spacing-xxl;
+            text-decoration: underline;
+        }
+        &_icon {
+            width: 20px;
+            height: 20px;
+            color: $color-green-light;
+            padding-right: $spacing-sm;
+        }
+        
+    }
+    &_second_container {
+        margin-top: $spacing-xxl;
+        margin: $spacing-xl $spacing-md;
+        background-color: $color-green;
+        padding: 0 $spacing-md;
+        color: $color-white;
+        position: relative;
+        &_title {
+            padding-top: $spacing-md;
+            padding-bottom: $spacing-lg;
+            color: $color-white;
+        }
+        &_text {
+            font-size: 24px;
+            padding-right: 20%;
+            line-height: 1.5;
+            font-weight: 300;
+            // padding-bottom: $spacing-xxl;
+        }  
+        
+    }
+    .img {
+        padding-left: 40%;
+        position: relative;
+        left: 85px;
+        top: 60px;
+    }
+}

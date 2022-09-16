@@ -9,7 +9,7 @@ import './_nav.scss';
 function Nav() {
     return (
         <nav className="nav">
-            <div className="nav_menu">
+            <div className="nav_menu ">
                 <div className="nav_menu_first_column">
                     <div className="first_container">
                         <p className="first_container_icon"><FontAwesomeIcon icon={faCheckCircle} /></p>
