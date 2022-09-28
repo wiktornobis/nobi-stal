@@ -1,0 +1,18 @@
+@import "./src/utils/variables";
+@import "./src/utils/breakpoints";
+
+.sectors {
+    display: flex;
+    justify-content: space-between;
+    margin: $spacing-md 0;
+    gap: 20px;
+    &_article { 
+        &_title {
+            text-align: center;
+            text-transform: uppercase;
+            background-color: $color-green;
+            color: $color-white;
+            padding: 10px 0; 
+        }
+    }
+}

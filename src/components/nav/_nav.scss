@@ -9,6 +9,7 @@
         gap: $spacing-lg;
         background-color: $color-green;
         height: 30px;
+        color: $color-white;
         .first_container {
             display: flex;
             align-items: center;
@@ -35,6 +36,7 @@
         height: 100px;
         background-color: $color-green;
         margin-top: 1px;
+        color: $color-white;
         
         &_logo {
             display: flex;
