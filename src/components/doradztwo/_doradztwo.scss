@@ -13,6 +13,9 @@
             color: $color-text;
             padding-left: $spacing-xxl;
             text-decoration: underline;
+            &:hover {
+               font-weight: 600;
+            }
         }
         &_icon {
             width: 20px;
