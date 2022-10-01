@@ -4,7 +4,7 @@ import {faCircleCheck, faCalendarCheck, faListCheck} from "@fortawesome/free-sol
 
 function Achievement() {
     return (
-        <section className="achievement">
+        <section className="achievement general-container">
             <h2 className="achievement_title">Dlaczego NOBI-STAL to najlepszy wybór?</h2>
             <div className="achievement_container">
                 <div className="achievement_container_first">
