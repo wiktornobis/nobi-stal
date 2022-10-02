@@ -1,0 +1,41 @@
+
+@import "../../../utils/variables";
+
+.contact {
+  margin-bottom: $spacing-xxl;
+}
+.main-contact {
+  margin-top: $spacing-xxl;
+  display: flex;
+  justify-content: center;
+
+}
+.second-contact{
+  margin-bottom: $spacing-sm;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: center;
+  margin-top: $spacing-xxl;
+  gap: 50px;
+
+  &_left {
+    width: 50%;
+    &_text {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  &_right {
+    width: 50%;
+
+    &_text {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
+

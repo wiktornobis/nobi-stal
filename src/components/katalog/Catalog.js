@@ -7,7 +7,6 @@ function Catalog() {
     
     return (
         <section className="catalog general-container">
-            <div className="catalog_container">
                 <h2 className="catalog_title">Potrzebujesz sprężyn na specjalne zamówienie?</h2>
                 <h4 className="catalog_text">
                     Zapoznaj się z naszą szeroką gamą produktów. 
@@ -18,7 +17,6 @@ function Catalog() {
                     Pobierz plik
                     </a>
                 </Button>
-            </div>
         </section>
     );
 }
