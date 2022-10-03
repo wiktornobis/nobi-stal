@@ -24,6 +24,11 @@
         color: $color-green!important;
         border: 1px solid white !important;
         background-color: $color-white !important;
+        &:hover {
+            border: 1px solid $color-white !important;
+            background-color: $color-green !important;
+            color: $color-white !important;
+        }
         &_text {
             font-size: 18px;
         }

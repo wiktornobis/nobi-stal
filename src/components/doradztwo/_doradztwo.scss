@@ -11,10 +11,11 @@
         }
         &_text {
             color: $color-text;
-            padding-left: $spacing-xxl;
-            text-decoration: underline;
+            margin-left: $spacing-xxl;
+            border-bottom: 1px solid black;
             &:hover {
-               font-weight: 600;
+               border-bottom: 2px solid black;
+               font-weight: 500;
             }
         }
         &_icon {

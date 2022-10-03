@@ -9,22 +9,32 @@ function AboutUs(props) {
                 <div className="contact_container_left">
                     <h3 className='second-contact'>Dane kontaktowe</h3>
                     <div className="contact_container_left_text">
-                        <p>E:mail: example123@.gmail.com</p>
-                        <p>Full name: Example ® - Official Online Boutique</p>
-                        <p>Address: 118 Kasprzaka Street, 01-234 Warsaw (POLAND)</p>
+                        <p className='email_title'>E-MAIL:</p>
+                        <p>kontakt@nobistal.pl</p>
+                        <p className='name_title'>NAZWA FIRMY:</p>
+                        <p>P.P.U.H NOBI-STAL Iwona Nobis</p>
+                        <p className='address_title'>ADRES:</p>
+                        <p>Białka 17 27-100 Iłża (POLSKA)</p>
                     </div>
                 </div>
                 <div className="contact_container_right">
                     <h3 className='second-contact'>Dane firmy</h3>
                     <div className="contact_container_right_text">
-                        <p>Official Online Boutique Sp. z o.o.</p>
-                        <p>Kasprzaka 118, 01-234 Warsaw(POLAND)</p>
-                        <p>NIP: XXXXXXXX</p>
-                        <p>Registration number: XXXXXXXXXX</p>
-                        <p>REGON:XXXXXXX
-                            Account number for payments: XX XXXX XXXX XXXX XXXX XXXX XXXX</p>
-                        <p>SWIFT:BREXPLPWXXX</p>
-                        <p>Our bank: XXXX</p>
+                        <div className='information_flex'>
+                            <p className='nip_title'>NIP:</p>
+                            <p>796-221-85-62</p>
+                        </div>
+                        <div className="information_flex">
+                            <p className='regon_title'>REGON:</p>
+                            <p>142448704</p>
+                        </div>
+                        <div className="information_flex">
+                            <p className='mobile_title'>TEL:</p>
+                            <p>698 700 270</p>
+                        </div>          
+                     
+                        <p className='bank_title'>ING BANK Śląski Nr konta:</p>
+                        <p>04 1050 1432 1000 0090 7443 8079</p>
                     </div>
                 </div>
             </div>

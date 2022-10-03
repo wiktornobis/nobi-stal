@@ -5,10 +5,9 @@
   margin-bottom: $spacing-xxl;
 }
 .main-contact {
-  margin-top: $spacing-xxl;
+  margin: $spacing-xxl 0;
   display: flex;
   justify-content: center;
-
 }
 .second-contact{
   margin-bottom: $spacing-sm;
@@ -17,8 +16,9 @@
 .contact_container {
   display: flex;
   justify-content: center;
-  margin-top: $spacing-xxl;
-  gap: 50px;
+  gap: 150px;
+  max-width: 800px;
+  margin: 0 auto;
 
   &_left {
     width: 50%;
@@ -27,9 +27,25 @@
       flex-direction: column;
       gap: 20px;
     }
+    .email_title,
+    .name_title,
+    .address_title {
+      font-weight: 600;
+      
+    }
   }
   &_right {
+    .information_flex {
+      display: flex;
+    }
     width: 50%;
+    .nip_title,
+    .regon_title,
+    .mobile_title,
+    .bank_title {
+      font-weight: 600;
+      margin-right: 10px;
+    }
 
     &_text {
       display: flex;
