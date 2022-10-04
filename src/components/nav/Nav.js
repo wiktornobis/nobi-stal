@@ -12,12 +12,13 @@ function Nav() {
             <div className="nav_menu ">
                 <div className="nav_menu_first_column">
                     <div className="first_container">
-                        <p className="first_container_icon"><FontAwesomeIcon icon={faCheckCircle} /></p>
-                        <p className="first_container_text">Najwysza jakość</p>
-                    </div>
-                    <div className="second_container">
-                        <p className="second_container_icon"><FontAwesomeIcon icon={faUserShield} /></p>
-                        <p className="second_container_text">2-letnia gwarancja</p>
+                        {/* <p className="first_container_icon"><FontAwesomeIcon icon={faCheckCircle} /></p> */}
+                        <div className="first_container_text">
+                            <FontAwesomeIcon icon={faCheckCircle} className="first_container_icon" />
+                             Najwysza jakość  
+                             <FontAwesomeIcon className="first_container_icon" icon={faUserShield} />
+                             2-letnia gwarancja
+                        </div>
                     </div>
                 </div>
                 <div className="nav_menu_second_column">

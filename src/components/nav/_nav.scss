@@ -14,8 +14,20 @@
             display: flex;
             align-items: center;
             gap: 10px;
+            overflow:hidden;
+            width: 100%;
+
             &_text {
-                font-size: 12px;
+                font-size: 14px;
+                white-space:nowrap;
+                animation:przesun 20s linear infinite;
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                gap: 10px;
+            }
+            &_icon {
+                padding-left: 50px;
             }
         }
         .second_container {
@@ -89,4 +101,9 @@
             }
         }
     }
+}
+@keyframes przesun
+{
+  0% { transform:translateX(30%); }
+  100% { transform:translateX(-100%); }
 }

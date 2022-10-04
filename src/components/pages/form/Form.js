@@ -115,23 +115,6 @@ function Formularz() {
                     )}
                 </Formik>  
             </div>
-            <div className="footer">
-                <h3 className="footer_title">Copyright by Wiktor Nobis</h3>
-            </div>
-            <div className="footer_icon">
-                <a 
-                    href="https://www.facebook.com/"
-                    target='_blank'
-                    rel='noreferrer'
-                >
-                </a>
-                <a 
-                    href="https://www.instagram.com/"
-                    target='_blank'
-                    rel='noreferrer'
-                >
-                </a>
-            </div>
         </div>
     );
 }
