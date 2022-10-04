@@ -33,10 +33,10 @@ function Nav() {
                             <Link to='/produkty'>Produkty</Link>
                         </li>
                         <li className="nav_menu_second_column_menu_link">
-                            <Link to='/kontakt'>Kontakt</Link>
+                            <Link to='/formularz'>Formularz</Link>
                         </li>
                         <li className="nav_menu_second_column_menu_link">
-                            <Link to='/dojazd'>Dojazd</Link>
+                            <Link to='/kontakt'>Kontakt</Link>
                         </li>
                     </ul>
                 </div>
