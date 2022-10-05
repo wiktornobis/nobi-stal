@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCheckCircle, faUserShield} from "@fortawesome/free-solid-svg-icons";
 
+// import logo from '../../assets/nobistal.png';
+
 import HamburgerMenu from "./HamburgerMenu";
 
 import './_nav.scss';
@@ -24,7 +26,7 @@ function Nav() {
                 <div className="nav_menu_second_column">
                 <HamburgerMenu />
                     <div className="nav_menu_second_column_logo">
-                        <p>logo</p>
+                        {/* <p className="logo">{logo}</p> */}
                     </div>
                     <ul className="nav_menu_second_column_menu">
                         <li className="nav_menu_second_column_menu_link">

@@ -54,9 +54,18 @@
             display: flex;
             align-items: center;
             padding-left: $spacing-lg;
+            &::before {
+                content: '';
+                background: url('../../assets/nobistal.png');
+                background-size: cover;
+                width: 150px;
+                height: 55px;
+            }
             @include mobile {
                 justify-content: flex-end;
                 padding-right: $spacing-lg;
+
+              
             }
         }
         &_menu {
