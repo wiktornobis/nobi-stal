@@ -1,0 +1,23 @@
+@import "/src/utils/variables";
+@import "/src/utils/breakpoints";
+
+.products_main {
+    background-color: $color-primary;
+    &_container {
+        display: flex;
+        flex-direction: column;
+        padding: $spacing-xl 0;
+        gap: $spacing-md;
+        width: 60%;
+        &_title {
+            color: white;
+        }
+        &_text {
+            color: white;
+        }
+    }
+    &_products {
+        margin: $spacing-lg 0;
+    }
+  
+}

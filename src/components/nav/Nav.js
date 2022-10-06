@@ -7,8 +7,10 @@ import {faCheckCircle, faUserShield} from "@fortawesome/free-solid-svg-icons";
 import HamburgerMenu from "./HamburgerMenu";
 
 import './_nav.scss';
+import { useState } from "react";
 
 function Nav() {
+    const [active, setActive] = useState();
     return (
         <nav className="nav">
             <div className="nav_menu ">
@@ -25,20 +27,36 @@ function Nav() {
                 </div>
                 <div className="nav_menu_second_column">
                 <HamburgerMenu />
-                    <div className="nav_menu_second_column_logo">
-                        {/* <p className="logo">{logo}</p> */}
-                    </div>
+                    <a href="/">
+                        <div className="nav_menu_second_column_logo"></div>
+                    </a>
                     <ul className="nav_menu_second_column_menu">
-                        <li className="nav_menu_second_column_menu_link">
+                        <li onClick={() => setActive('home')} 
+                            className= {active === 'home' 
+                                                ? "nav_menu_second_column_menu_link active_link" 
+                                                :"nav_menu_second_column_menu_link"}
+                        >
                             <Link to='/'>Strona główna</Link>
                         </li>
-                        <li className="nav_menu_second_column_menu_link">
+                        <li onClick={() => setActive('products')} 
+                            className={active === 'products' 
+                                                ? "nav_menu_second_column_menu_link active_link" 
+                                                : "nav_menu_second_column_menu_link"}
+                        >
                             <Link to='/produkty'>Produkty</Link>
                         </li>
-                        <li className="nav_menu_second_column_menu_link">
+                        <li onClick={() => setActive('form')} 
+                            className={active === 'form' 
+                                                ? "nav_menu_second_column_menu_link active_link" 
+                                                : "nav_menu_second_column_menu_link"}
+                        >
                             <Link to='/formularz'>Formularz</Link>
                         </li>
-                        <li className="nav_menu_second_column_menu_link">
+                        <li onClick={() => setActive('contact')} 
+                            className={active === 'contact' 
+                                                ? "nav_menu_second_column_menu_link active_link" 
+                                                : "nav_menu_second_column_menu_link"}
+                        >
                             <Link to='/kontakt'>Kontakt</Link>
                         </li>
                     </ul>
