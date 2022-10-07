@@ -1,6 +1,12 @@
 import './_products.scss';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function Products({products}) {
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
     return (
         <>
             <div className="products_main">
@@ -18,8 +24,8 @@ function Products({products}) {
                 </div>
             </div>
             <div className="products_main_products general-container">
-                <h3 className="products_main_products_title">Produkty</h3>
-                <div className="items">
+                <h3 className="products_main_products_title" data-aos="fade-up">Produkty</h3>
+                <div className="items" data-aos="fade-up">
                     {products.map((products, index) => (
                         <div key={index} className='items_container'>
                             <img
@@ -33,10 +39,10 @@ function Products({products}) {
                     ))}
                 </div>
                 <div className="information">
-                    <h2 className="information_title">
+                    <h2 className="information_title" data-aos="fade-up">
                         NOBI-STAL
                     </h2>
-                    <h3 className="information_text">
+                    <h3 className="information_text" data-aos="fade-up">
                         Nobi-stal jest jednym z największych dostawców sprężyn technicznych
                         dostępnych z magazynu. Dzięki szerokiej gamie produktów wysokiej jakości 
                         dostarczamy sprężyny szybko i po korzystnej cenie.
@@ -47,11 +53,11 @@ function Products({products}) {
                         podążania za stale rosnącymi wymaganiami Klientów stanowią o jakości 
                         oferowanych produktów i rozwiązań
                     </h3>
-                    <h3 className="information_text">
+                    <h3 className="information_text" data-aos="fade-up">
                         Ciągle poszerzamy naszą ofertę produktową stając się jeszcze lepszym 
                         partnerem dla naszych Klientów.
                     </h3>
-                    <ul className="information_list">
+                    <ul className="information_list" data-aos="fade-up">
                         <li>Szybka dostawa Katalog sprężyn i standardowych części</li>
                         <li>Dostawa prototypów</li>
                         <li>Stopniowe ceny sprężyn standardowych</li>

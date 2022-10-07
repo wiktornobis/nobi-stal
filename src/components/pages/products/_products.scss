@@ -60,6 +60,11 @@
             display: flex;
             flex-direction: column;
             gap: 12px;
+            & li {
+                list-style:disc;
+                color: rgb(182, 182, 182);
+                padding-left: 10px;
+            }
         }
     }
 }
