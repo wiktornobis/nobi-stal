@@ -2,15 +2,18 @@
 @import "../../../utils/variables";
 
 .contact {
-  margin-bottom: $spacing-xxl;
+  background-color: $color-primary;
+  padding: $spacing-xxl 0;
+  width: 50%;
 }
 .main-contact {
-  margin: $spacing-xxl 0;
   display: flex;
   justify-content: center;
+  color: white;
 }
 .second-contact{
   margin-bottom: $spacing-sm;
+  color: white;
 }
 
 .contact_container {
@@ -19,6 +22,7 @@
   gap: 150px;
   max-width: 900px;
   margin: 0 auto;
+  color: white;
 
   &_left {
     width: 50%;
@@ -51,6 +55,7 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
+     
     }
   }
 }

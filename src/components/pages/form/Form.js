@@ -26,9 +26,9 @@ function Formularz() {
             .required('Wiadomość musi mieć conajmniej 120 znaków!'),
     })
     return (
-        <div id='kontakt' className="contact">        
-            <div className="contact_right">
-                <h3 className="contact_right_title">Skontaktuj się z nami</h3>
+        <div id='kontakt' className="contact_form_form">        
+            <div className="contact_form_right">
+                <h3 className="contact_form_right_title">Skontaktuj się z nami</h3>
                 <Formik
                     initialValues={{
                         name: '',
@@ -50,7 +50,7 @@ function Formularz() {
                         //     }
                         // }
                         // await Axios.post(
-                        //     'https://fer-api.coderslab.pl/v1/portfolio/contact',
+                        //     'https://fer-api.coderslab.pl/v1/portfolio/contact_form',
                         //     JSON.stringify(data),
                         //     axiosConfig
                         // )
@@ -64,14 +64,14 @@ function Formularz() {
                     }}
                 >
                     {({ values, isSubmitting }) => (
-                        <div className='contact_right_form'>
+                        <div className='contact_form_right_form'>
                             <Form>
                                  {errorModal && <p className='error-send'>Nie udało się wysłać wiadomości!</p>}
                                  {modal && <p className='success-send'>Wiadomość została wysłana!</p>}
                                  {modal && <p className='success-send'>Wkrótce się skontaktujemy.</p>}
 
-                                <div className="contact_right_form_first">
-                                    <div className="contact_right_form_first-name">
+                                <div className="contact_form_right_form_first">
+                                    <div className="contact_form_right_form_first-name">
                                         <TextField label="Wpisz swoje imię" 
                                                    name="name" 
                                                    id="name"
@@ -80,7 +80,7 @@ function Formularz() {
                                                    value={values.name}
                                         />
                                     </div>
-                                    <div className="contact_right_form_first-name">
+                                    <div className="contact_form_right_form_first-name">
                                         <TextField label="Email" 
                                                    name="email" 
                                                    id="email"
@@ -90,9 +90,9 @@ function Formularz() {
                                         />
                                     </div>
                                 </div>
-                                <div className="contact_right_form_first-text">
+                                <div className="contact_form_right_form_first-text">
                                     <Field 
-                                        className="contact_right_form_first-text-area" 
+                                        className="contact_form_right_form_first-text-area" 
                                         label="Wpisz swoją wiadomość" 
                                         name="message"
                                         id="message" 
@@ -103,8 +103,8 @@ function Formularz() {
                                         value={values.message}
                                     />
                                 </div>
-                                <div className="contact_right_form_first-btn">
-                                    <button className="contact_right_form_first-btn-submit" 
+                                <div className="contact_form_right_form_first-btn">
+                                    <button className="contact_form_right_form_first-btn-submit" 
                                             type="submit"
                                     >
                                         Wyślij

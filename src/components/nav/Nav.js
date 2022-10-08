@@ -16,7 +16,6 @@ function Nav() {
             <div className="nav_menu ">
                 <div className="nav_menu_first_column">
                     <div className="first_container">
-                        {/* <p className="first_container_icon"><FontAwesomeIcon icon={faCheckCircle} /></p> */}
                         <div className="first_container_text">
                             <FontAwesomeIcon icon={faCheckCircle} className="first_container_icon" />
                              Najwysza jakość  
@@ -33,28 +32,28 @@ function Nav() {
                     <ul className="nav_menu_second_column_menu">
                         <li onClick={() => setActive('home')} 
                             className= {active === 'home' 
-                                                ? "nav_menu_second_column_menu_link active_link" 
+                                                ? "nav_menu_second_column_menu_link_active active_link" 
                                                 :"nav_menu_second_column_menu_link"}
                         >
                             <Link to='/'>Strona główna</Link>
                         </li>
                         <li onClick={() => setActive('products')} 
                             className={active === 'products' 
-                                                ? "nav_menu_second_column_menu_link active_link" 
+                                                ? "nav_menu_second_column_menu_link_active active_link" 
                                                 : "nav_menu_second_column_menu_link"}
                         >
                             <Link to='/produkty'>Produkty</Link>
                         </li>
                         <li onClick={() => setActive('form')} 
                             className={active === 'form' 
-                                                ? "nav_menu_second_column_menu_link active_link" 
+                                                ? "nav_menu_second_column_menu_link_active active_link" 
                                                 : "nav_menu_second_column_menu_link"}
                         >
                             <Link to='/formularz'>Formularz</Link>
                         </li>
                         <li onClick={() => setActive('contact')} 
                             className={active === 'contact' 
-                                                ? "nav_menu_second_column_menu_link active_link" 
+                                                ? "nav_menu_second_column_menu_link_active active_link" 
                                                 : "nav_menu_second_column_menu_link"}
                         >
                             <Link to='/kontakt'>Kontakt</Link>

@@ -3,9 +3,9 @@ import './_contact.scss';
 
 function AboutUs(props) {
     return (
-        <section className='contact general-container'>
-            <h2 className='main-contact'>KONTAKT</h2>
-            <div className='contact_container'>
+        <section className='contact'>
+            <h2 className='main-contact general-container'>KONTAKT</h2>
+            <div className='contact_container general-container'>
                 <div className="contact_container_left">
                     <h3 className='second-contact'>Dane kontaktowe</h3>
                     <div className="contact_container_left_text">

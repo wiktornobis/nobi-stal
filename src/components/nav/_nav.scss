@@ -111,6 +111,26 @@
                     transform: scaleX(1);
                   }
             }
+            &_link_active a {
+                font-size: 24px;
+                position: relative;
+                &::after{
+                    content: '';
+                    width: 100%;
+                    height: 3px;
+                    background-color: $color-primary;
+                    position: absolute;
+                    left: 0;
+                    top: 32px;
+                    transform: scaleX(0);
+                    transform-origin: left;
+                    transition: transform .25s ease;
+                    
+                  }
+                  &:hover::after{
+                    transform: scaleX(1);
+                  }
+            }
         }
     }
 }

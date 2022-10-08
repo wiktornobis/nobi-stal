@@ -1,22 +1,6 @@
 @import '../../../utils/variables';
 
-.contact {
-    display: flex;
-    height: 800px;
-    background: url('../../../assets/sprezynynaciskowe.jpeg');
-    background-size: cover;
-    margin: 0;
-    // @include desktop {
-    //     height: 700px;
-    // }  
-
-    // @include tablet {
-    //     height: 600px;
-    // }  
-    // @include mobile {
-    //     display: none;
-    // }  
-
+.contact_form {
      &_right {
         height: 650px;
         width: 500px;
@@ -29,6 +13,7 @@
         background-color: $color-column;
         padding: 20px;
         border-radius: 5px;
+        margin-bottom: $spacing-xl;
 
         // @include desktop {
         //     height: 500px;

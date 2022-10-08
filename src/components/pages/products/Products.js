@@ -46,8 +46,8 @@ function Products({products}) {
                         Nobi-stal jest jednym z największych dostawców sprężyn technicznych
                         dostępnych z magazynu. Dzięki szerokiej gamie produktów wysokiej jakości 
                         dostarczamy sprężyny szybko i po korzystnej cenie.
-                        Wieloletnia tradycja i międzynarodowy charakter Grupy sprawia, 
-                        że rozwiązania Axtone spełniają wymogi zarówno norm europejskich, 
+                        Wieloletnia tradycja i międzynarodowy charakter firmy sprawia, 
+                        że rozwiązania Nobi-Stal spełniają wymogi zarówno norm europejskich, 
                         UIC, rosyjskich GOST, jak i chińskich TB/T. Innowacyjność, kompetencje 
                         technologiczne i konstrukcyjne, kilkadziesiąt lat doświadczenia i chęć
                         podążania za stale rosnącymi wymaganiami Klientów stanowią o jakości 
