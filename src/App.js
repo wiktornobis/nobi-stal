@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
+
 import Home from "./components/pages/Home";
 
 import './App.scss';
@@ -8,6 +9,7 @@ import Nav from "./components/nav/Nav";
 import Products from "./components/pages/products/Products";
 import Formularz from "./components/pages/form/Form";
 import data from "./components/pages/products/DataProducts";
+import Naciskowe from "./components/pages/subproducts/Naciskowe";
 
 
 function App() {
@@ -19,8 +21,10 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} exact />   
           <Route path='/kontakt' element={<Contact />} />   
-          <Route path='/produkty' element={<Products products={products} />} />   
+          <Route path='/produkty' element={<Products products={products} />} /> 
+          <Route path='/produkty/:title' element={<Naciskowe/>} />    
           <Route path='/formularz' element={<Formularz />} />   
+          <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
         <Footer />
     </Router>

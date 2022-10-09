@@ -28,7 +28,7 @@ function Products({products}) {
                 <h3 className="products_main_products_title" data-aos="fade-up">Produkty</h3>
                 <div className="items" data-aos="fade-up">
                     {products.map((products, index) => (
-                        <Link to={products.to}>
+                        <Link to={products.title}>
                             <div key={index} className='items_container'>
                                 <img
                                     className='items_container_img'
