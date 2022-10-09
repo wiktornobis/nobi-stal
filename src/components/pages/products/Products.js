@@ -2,6 +2,7 @@ import './_products.scss';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { Link } from "react-router-dom";
 
 function Products({products}) {
     useEffect(() => {
@@ -27,15 +28,17 @@ function Products({products}) {
                 <h3 className="products_main_products_title" data-aos="fade-up">Produkty</h3>
                 <div className="items" data-aos="fade-up">
                     {products.map((products, index) => (
-                        <div key={index} className='items_container'>
-                            <img
-                                className='items_container_img'
-                                src={products.img}
-                                alt={products.title}
-                            />
-                            <h3 className='items_container_text'>{products.title}</h3>
-                            <p className='items_container_title'>{products.text}</p>
-                        </div>
+                        <Link to={products.to}>
+                            <div key={index} className='items_container'>
+                                <img
+                                    className='items_container_img'
+                                    src={products.img}
+                                    alt={products.title}
+                                />
+                                <h3 className='items_container_text'>{products.title}</h3>
+                                <p className='items_container_title'>{products.text}</p>
+                            </div>
+                        </Link>
                     ))}
                 </div>
                 <div className="information">
