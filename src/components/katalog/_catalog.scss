@@ -1,0 +1,36 @@
+@import '../../utils/variables';
+
+.catalog {
+    margin-bottom: $spacing-xl;
+   .container {
+    background-color: $color-primary;
+    margin: 0 10%;
+    padding: 80px 0;
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+    &_title,
+    &_text {
+        color: $color-white;
+    }
+    &_text {
+        padding: 0 15%;
+    }
+    &_btn {
+        color: $color-primary!important;
+        border: 1px solid white !important;
+        background-color: $color-white !important;
+        &:hover {
+            border: 1px solid $color-white !important;
+            background-color: $color-primary !important;
+            color: $color-white !important;
+        }
+        &_text {
+            font-size: 18px;
+        }
+    }
+}

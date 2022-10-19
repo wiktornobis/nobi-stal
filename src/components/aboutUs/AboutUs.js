@@ -1,6 +1,13 @@
 import './_aboutUs.scss';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
+import { useEffect } from 'react';
 
 function AboutUs() {
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
     return (
         <section className="about general-container">
             <h2 className="about_title">O nas</h2>
@@ -16,7 +23,7 @@ function AboutUs() {
                 kombajnach, pługach. Na specjalne zamówienie oferujemy sprężyny 
                 wykorzystywane w maszynach do spulchniania gleby.
             </p>
-            <h3 className="about_sectors">Zastosowanie naszych produktów</h3>
+            <h3 className="about_sectors" data-aos="fade-up">Zastosowanie naszych produktów</h3>
         </section>
     );
 }

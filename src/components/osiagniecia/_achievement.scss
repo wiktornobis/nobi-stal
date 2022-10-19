@@ -2,6 +2,7 @@
 
 .achievement {
     margin-top: 200px;
+    margin-bottom: $spacing-xxl;
     .achievement_container {
         display: flex;
         justify-content: space-around;
@@ -11,7 +12,7 @@
         margin-top: $spacing-sm;
         background-color: $color-column;
         padding: $spacing-lg 0;
-    
+        margin-top: $spacing-lg;
         &_first,
         &_second,
         &_third {
@@ -22,6 +23,9 @@
                 color: white !important;
                 width: 100px;
                 height: 100px;
+            }
+            &_text {
+                width: 300px;
             }
         }
     }

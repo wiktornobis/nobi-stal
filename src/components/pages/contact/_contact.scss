@@ -1,0 +1,62 @@
+
+@import "../../../utils/variables";
+
+.contact {
+  background-color: $color-primary;
+  padding: $spacing-xxl 0;
+  width: 50%;
+}
+.main-contact {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.second-contact{
+  margin-bottom: $spacing-sm;
+  color: white;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  max-width: 900px;
+  margin: 0 auto;
+  color: white;
+
+  &_left {
+    width: 50%;
+    &_text {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .email_title,
+    .name_title,
+    .address_title {
+      font-weight: 600;
+      
+    }
+  }
+  &_right {
+    .information_flex {
+      display: flex;
+    }
+    width: 50%;
+    .nip_title,
+    .regon_title,
+    .mobile_title,
+    .bank_title {
+      font-weight: 600;
+      margin-right: 10px;
+    }
+
+    &_text {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+     
+    }
+  }
+}
+

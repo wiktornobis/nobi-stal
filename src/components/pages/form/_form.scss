@@ -1,0 +1,212 @@
+@import '../../../utils/variables';
+
+.contact_form {
+     &_right {
+        height: 650px;
+        width: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 100px;
+        background-color: $color-column;
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: $spacing-xl;
+
+        // @include desktop {
+        //     height: 500px;
+        //     width: 400px;
+        //     top: 100px;
+        // }  
+        // @include tablet {
+        //     height: 400px;
+        //     width: 300px;
+        //     top: 80px;
+        //     right: 3%;
+        // }  
+       
+        &_title {
+            font-size: 38px;
+            margin-bottom: 35px;
+            padding-top: 30px;
+
+            // @include desktop {
+            //     font-size: 30px;
+            //     margin-bottom: 20px;
+            // }  
+            // @include tablet {
+            //     font-size: 24px;
+            //     margin-bottom: 15px;
+            // }  
+        }
+
+        &_form {
+            width: 100%;
+            margin-top: 80px;
+
+            //  @include desktop {
+            //     margin-top: 60px;
+            // }  
+            // @include tablet {
+            //     margin-top: 50px;
+            // }  
+            
+            &_first {
+                display: flex;
+                gap: 20px;
+
+                &-name {
+                    width: 100%;
+                }
+
+                &-name input {
+                    padding: 5px 0;
+                    border: none;
+                    border-bottom: 2px solid black;
+                    font-size: 18px;
+                    outline: none;
+                    width: 100%;
+
+                    // @include desktop {
+                    //     font-size: 16px;
+                    // } 
+                    // @include tablet {
+                    //     font-size: 14px;
+                    // } 
+                }
+
+                &-text {
+                    margin-top: 50px;
+                    
+                    // @include desktop {
+                    //     margin-top: 30px;
+                    // } 
+
+                    &-area {
+                        padding: 10px 0;
+                        height: 105px;
+                        border: none;
+                        border-bottom: 2px solid black;
+                        font-size: 18px;
+                        outline: none;
+                        resize: none;   
+
+                        // @include desktop {
+                        //     height: 110px;
+                        //     font-size: 16px;
+                        // }  
+                    }
+                }
+
+                &-btn {
+                    margin-top: 60px;
+                    display: flex;
+                    justify-content: flex-end;
+              
+                    // @include desktop {
+                    //     margin-top: 40px;
+                    // }  
+
+                    &-submit {
+                        font-size: 18px;
+                        font-weight: 300;
+                        border: 1px solid black;
+                        padding: 13px 52px;
+                        background-color: white;
+                        cursor: pointer;
+                        color: black;
+  
+                        // @include desktop {
+                        //     font-size: 16px;
+                        //     padding: 10px 40px;
+                        // }  
+                        // @include tablet {
+                        //     font-size: 14px;
+                        //     padding: 8px 30px;
+                        // }    
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    margin: 0;
+}
+
+label {
+    font-size: 16px;
+   
+    // @include desktop {
+    //     font-size: 14px;
+    // } 
+    // @include tablet{
+    //     font-size: 12px;
+    // } 
+  }
+
+.error {
+position: relative;
+top: 5px;
+color: red;
+font-size: 14px;
+
+// @include desktop {
+//     font-size: 12px;
+// } 
+
+    &::after {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background-color: red;
+        display: block;
+        position: absolute;
+        top: -7px;
+    }
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+::placeholder {
+    opacity: 0.3;
+    
+}
+input, textarea {
+    background: transparent;
+    color: black;
+}
+
+.error-send {
+    color: red;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 0px;
+
+    // @include mobile {
+    //     font-size: 14px;
+    // }
+}
+
+.success-send {
+    color: green;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+
+    // @include mobile {
+    //     font-size: 14px;
+    // }
+}
