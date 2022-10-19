@@ -9,7 +9,9 @@ import Nav from "./components/nav/Nav";
 import Products from "./components/pages/products/Products";
 import Formularz from "./components/pages/form/Form";
 import data from "./components/pages/products/DataProducts";
-import Naciskowe from "./components/pages/subproducts/Naciskowe";
+// import RoutesProduct from "./RoutesProduct";
+// import Naciskowe from "./components/pages/subproducts/Naciskowe";
+
 
 
 function App() {
@@ -19,10 +21,15 @@ function App() {
     <Router>
         <Nav />
         <Routes>
-          <Route path='/' element={<Home />} exact />   
+          <Route path='/' element={<Home />} />   
           <Route path='/kontakt' element={<Contact />} />   
-          <Route path='/produkty' element={<Products products={products} />} /> 
-          <Route path='/produkty/:title' element={<Naciskowe/>} />    
+          <Route path='/produkty' element={<Products products={products} />} />
+          <Route path='/produkty/1' element={<h1>elo</h1>} />
+          <Route path='/produkty/2' element={<h1>elo2</h1>} />
+          <Route path='/produkty/3' element={<h1>elo3</h1>} />
+          <Route path='/produkty/4' element={<h1>elo4</h1>} />
+          <Route path='/produkty/5' element={<h1>elo5</h1>} />
+          <Route path='/produkty/6' element={<h1>elo6</h1>} /> 
           <Route path='/formularz' element={<Formularz />} />   
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
