@@ -31,8 +31,7 @@ function Products({products}) {
                     {products.map((products, index) => (
                             <div key={index} className='items_container' onClick={() => {
                                 navigate(`/produkty/${products.id}`)
-                            }}>
-                                
+                            }}>  
                                 <img
                                     className='items_container_img'
                                     src={products.img}
