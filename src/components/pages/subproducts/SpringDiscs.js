@@ -1,4 +1,4 @@
-import React from 'react';
+import './_spring-global.scss';
 import { Outlet } from 'react-router-dom';
 
 function SpringDiscs(props) {

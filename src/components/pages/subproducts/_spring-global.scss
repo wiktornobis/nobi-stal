@@ -1,0 +1,68 @@
+@import '../../../utils/breakpoints';
+.springs-background {
+    background-color: $color-column;
+    height: 450px;
+}
+.spring-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 30px 0;
+    font-size: 30px;
+    height: 100%;
+    &-img {
+        width: 30px;
+        height: 30px;
+    }
+    &-back {
+        font-size: 15px;
+        cursor: pointer;
+        &:hover {
+            color: $color-text-dark;
+            text-decoration: underline;
+        }
+    }
+    &-current {
+        font-size: 16px;
+        font-weight: bold;
+        position: relative;
+      
+    }
+}
+
+.spring-compression {
+    display: flex;
+    .left-container {
+        margin-top: $spacing-sm;
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-sm;
+        width: 50%;
+        .spring-text {
+            line-height: 1.7;
+            padding: 10px 0 0 20px;
+        }
+    }
+    .right-container {
+        width: 50%;
+        &-img {
+            padding: 0 $spacing-xxl;
+        }
+    }
+}
+.springs-main-container  {
+    margin-top: $spacing-xl;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+}
+// @include desktop {
+//     .spring-nav {
+//         &-back {
+//             font-size: 12px;
+//         }
+//         &-current {
+//             font-size: 13px;
+//         }
+//     }
+// }

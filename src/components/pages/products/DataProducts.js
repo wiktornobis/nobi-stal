@@ -1,9 +1,9 @@
-import img1 from '../../../assets/sprężyny-ściskowe.png';
-import img2 from '../../../assets/sprężyny-naciągowe.png';
-import img3 from '../../../assets/sprężyny-talerzowe.png';
-import img4 from '../../../assets/sprężyny-talerzowe.png';
-import img5 from '../../../assets/sprężyny-faliste.png';
-import img6 from '../../../assets/formy-gięte-z-drutu.png';
+import img1 from '../../../assets/sprezyny-sciskowe.png';
+import img2 from '../../../assets/sprezyny-naciagowe.png';
+import img3 from '../../../assets/sprezyny-talerzowe.png';
+import img4 from '../../../assets/sprezyny-talerzowe.png';
+import img5 from '../../../assets/sprezyny-faliste.png';
+import img6 from '../../../assets/formy-giete-z-drutu.png';
 
 
 const data = {

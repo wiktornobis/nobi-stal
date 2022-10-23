@@ -1,4 +1,6 @@
+import './_spring-global.scss';
 import { Outlet } from "react-router-dom";
+
 
 function  WireBentMolds(props) {
     return (

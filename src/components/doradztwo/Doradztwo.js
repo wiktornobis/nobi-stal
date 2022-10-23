@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMessage} from "@fortawesome/free-solid-svg-icons";
-import img from '../../assets/sprezynynaciskowe.jpeg';
+import img from '../../assets/sprezyny-naciskowe.jpeg';
 
 import './_doradztwo.scss';
 import Aos from 'aos';

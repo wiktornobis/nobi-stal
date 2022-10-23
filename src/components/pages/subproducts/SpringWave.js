@@ -1,3 +1,4 @@
+import './_spring-global.scss';
 import { Outlet } from "react-router-dom";
 
 
