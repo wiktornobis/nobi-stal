@@ -2,6 +2,7 @@ import './_spring-global.scss';
 import arrow from '../../../assets/arrow.png';
 import springCompression from '../../../assets/sprezyny-sciskowe.png';
 import { Outlet, Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 function SpringCompression() {
     return (
@@ -28,6 +29,11 @@ function SpringCompression() {
                             Wszystkie sprężyny naciskowe są szlifowane od 1,0 mm i produkowane zgodnie z 
                             normami DIN 2089-1 (EN 13906-1) i DIN 2095-2.
                         </p>
+                        <HashLink to="/produkty/1#sciskowe"
+                                  scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}
+                        >
+                            <h4 className="read-more">Czytaj Więcej</h4>
+                        </HashLink>
                     </div>
                     <div className="right-container">
                         <img className="defer-image is-loaded image-ratio:61 applied-default right-container-img" 
@@ -39,7 +45,7 @@ function SpringCompression() {
             </div>
         </div>
         <div className="springs-main-container general-container">
-            <h3 className="springs-main-container-title">Sprężyny ściskowe</h3>
+            <h3 id='sciskowe' className="springs-main-container-title">Sprężyny ściskowe</h3>
             <h4 className="springs-main-container-subtitle">Sprężyny ściskowe</h4>
         </div>
         <Outlet />
