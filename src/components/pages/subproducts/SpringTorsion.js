@@ -29,7 +29,7 @@ function SpringTorsion(props) {
                             Wszystkie sprężyny naciskowe są szlifowane od 1,0 mm i produkowane zgodnie z 
                             normami DIN 2089-1 (EN 13906-1) i DIN 2095-2.
                         </p>
-                        <HashLink to="/produkty/1#sciskowe"
+                        <HashLink to="/produkty/3#skrętne"
                                 scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}
                         >
                             <h4 className="read-more">Czytaj Więcej</h4>
@@ -45,7 +45,7 @@ function SpringTorsion(props) {
             </div>
         </div>
         <div className="springs-main-container general-container">
-            <h3 id='sciskowe' className="springs-main-container-title">Sprężyny skrętne</h3>
+            <h3 id='skrętne' className="springs-main-container-title">Sprężyny skrętne</h3>
             <h4 className="springs-main-container-subtitle">Sprężyny skrętne</h4>
         </div>
         <Outlet />
