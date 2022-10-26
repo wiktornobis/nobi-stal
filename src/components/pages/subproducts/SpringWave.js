@@ -1,7 +1,7 @@
 import './_spring-global.scss';
 import arrow from '../../../assets/arrow.png';
 import springWave from '../../../assets/sprezyny-faliste.png';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet} from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
 function SpringWave(props) {
@@ -10,9 +10,11 @@ function SpringWave(props) {
         <div className="springs-background">
             <div className="sub-product general-container">
                 <div className="spring-nav ">
-                    <Link to='/produkty'>
+                    <HashLink to='/produkty#produkty'
+                        scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
+                    >
                         <h2 className="spring-nav-back">Produkty</h2>
-                    </Link>
+                    </HashLink>
                     <img className='spring-nav-img'
                         src={arrow}
                         alt="" 

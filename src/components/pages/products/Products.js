@@ -26,7 +26,7 @@ function Products({products}) {
                 </div>
             </div>
             <div className="products_main_products general-container">
-                <h3 className="products_main_products_title" data-aos="fade-up">Produkty</h3>
+                <h3 id='produkty' className="products_main_products_title" data-aos="fade-up">Produkty</h3>
                 <div className="items" data-aos="fade-up">
                     {products.map((products, index) => (
                             <div key={index} className='items_container' onClick={() => {
