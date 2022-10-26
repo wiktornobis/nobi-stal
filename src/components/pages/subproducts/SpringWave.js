@@ -1,6 +1,6 @@
 import './_spring-global.scss';
 import arrow from '../../../assets/arrow.png';
-// import springTorison from '../../../assets/sprezyny-skretne.png';
+import springWave from '../../../assets/sprezyny-faliste.png';
 import { Outlet, Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
@@ -37,7 +37,7 @@ function SpringWave(props) {
                     </div>
                     <div className="right-container">
                         <img className="defer-image is-loaded image-ratio:61 applied-default right-container-img" 
-                            // src={springTorison}
+                            src={springWave}
                             alt="sprężyny faliste" 
                         />
                     </div>

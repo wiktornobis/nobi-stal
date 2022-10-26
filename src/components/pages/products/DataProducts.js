@@ -1,6 +1,6 @@
 import img1 from '../../../assets/sprezyny-sciskowe.png';
 import img2 from '../../../assets/sprezyny-naciagowe.png';
-import img3 from '../../../assets/sprezyny-talerzowe.png';
+import img3 from '../../../assets/sprezyny-skretne.png';
 import img4 from '../../../assets/sprezyny-talerzowe.png';
 import img5 from '../../../assets/sprezyny-faliste.png';
 import img6 from '../../../assets/formy-giete-z-drutu.png';
