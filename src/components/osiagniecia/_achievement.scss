@@ -1,8 +1,13 @@
-@import '../../utils/variables';
+@import '../../utils/breakpoints';
 
 .achievement {
     margin-top: 200px;
     margin-bottom: $spacing-xxl;
+    @include mobile {
+        margin-top: $spacing-xxl;
+        margin-bottom: $spacing-md;
+    }
+
     .achievement_container {
         display: flex;
         justify-content: space-around;
@@ -18,14 +23,22 @@
         &_third {
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
             gap: 50px;
+            padding: 0 10px;
+            @include tablet {
+                gap: 40px;
+            }
             &_img {
                 color: white !important;
                 width: 100px;
                 height: 100px;
             }
             &_text {
-                width: 300px;
+                width: 100%;
+                flex-wrap: wrap;
             }
         }
     }
@@ -33,4 +46,13 @@
 
 .icon {
     height: 100px;
+    color: rgb(42, 42, 42);
+    @include desktop {
+        width: 80px;
+        height: 80px;
+    }
+    @include tablet {
+        width: 60px;
+        height: 60px;
+    }
 }

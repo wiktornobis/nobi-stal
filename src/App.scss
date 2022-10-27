@@ -141,11 +141,15 @@ li {
     font-size: 36px;
   }
   h3 {
-    font-size: 22px;
+    font-size: 22px !important;
+  }
+  h4 {
+    font-size: 18px !important;
   }
   p {
     font-size: 22px !important;
   }
+
 }
 @include tablet {
   h2 {
@@ -154,10 +158,24 @@ li {
   h3 {
     font-size: 16px !important;
   }
+    h4 {
+    font-size: 14px !important;
+  }
   p {
     font-size: 16px !important;
   }
 }
 @include mobile {
-  
+  h2 {
+    font-size: 22px !important;
+  }
+  h3 {
+    font-size: 14px !important;
+  }
+    h4 {
+    font-size: 12px !important;
+  }
+  p {
+    font-size: 13px !important;
+  }
 }

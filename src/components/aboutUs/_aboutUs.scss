@@ -3,6 +3,9 @@
 
 .about {
    margin-top: $spacing-xxl;
+   @include mobile {
+      margin-top: $spacing-lg;
+   }
    &_text {
    color: $color-text;
    margin: $spacing-md 0;
@@ -11,6 +14,9 @@
    font-weight: 300;
       @include desktop {
          font-size: 22px;
+      }
+      @include mobile {
+        margin: $spacing-sm 0;
       }
    }
 }

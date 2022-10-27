@@ -43,12 +43,12 @@ $spacing-xxl: 150px;
             margin-right: $spacing-lg;
         }
     }
-    @media only screen and (max-width: $mobile-width) {
+    @media only screen and (max-width: 767px) {
         & {
-            margin-left: 0;
-            margin-right: 0;
-            width: 100%;
-            margin: 0 $spacing-sm;
+            margin-left: $spacing-sm;
+            margin-right: $spacing-sm;
+            // width: 100%;
+            // margin: 0 $spacing-sm;
         }
     }
 }

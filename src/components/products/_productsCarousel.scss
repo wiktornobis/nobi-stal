@@ -3,6 +3,9 @@
 
 .products_box {
     margin-top: $spacing-xxl;
+    @include mobile {
+        margin-top: $spacing-lg;
+     }
     &_title {
         margin-bottom: $spacing-sm;
     }
@@ -10,6 +13,9 @@
 
 .products { 
     margin: 100px 0;
+    @include mobile {
+        margin: $spacing-lg 0;
+     }
     .product {
         padding: 10px;
     }    

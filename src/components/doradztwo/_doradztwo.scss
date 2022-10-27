@@ -13,6 +13,12 @@
             color: $color-text;
             margin-left: $spacing-xxl;
             border-bottom: 1px solid black;
+            @include tablet {
+                margin-left: $spacing-xl;
+            }
+            @include mobile {
+                margin-left: $spacing-md;
+            }
             &:hover {
                border-bottom: 2px solid black;
                font-weight: 500;
@@ -27,12 +33,14 @@
         
     }
     &_second_container {
-        margin-top: $spacing-xxl;
         margin: $spacing-xl $spacing-md;
         background-color: $color-primary;
         padding: 0 $spacing-md;
         color: $color-white;
         position: relative;
+        @include mobile {
+            margin: $spacing-lg $spacing-sm;
+        }
         &_title {
             padding-top: $spacing-md;
             padding-bottom: $spacing-lg;
