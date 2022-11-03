@@ -56,6 +56,9 @@
                 padding: 0 100px;
                 margin-bottom: $spacing-sm;
                 @include desktop {
+                    padding: 0 110px;
+                }
+                @include tablet-xl {
                     padding: 0 80px;
                 }
                 @include tablet {

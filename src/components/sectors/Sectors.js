@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 
 function Sectors() {
     useEffect(() => {
-        Aos.init({ duration: 2000 })
+        Aos.init({ duration: 3000 })
     }, [])
     return (
         <section className="sectors" data-aos="fade-up">

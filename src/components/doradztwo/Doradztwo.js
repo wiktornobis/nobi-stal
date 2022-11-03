@@ -11,7 +11,7 @@ import { useEffect } from 'react';
 
 function Doradztwo() {
     useEffect(() => {
-        Aos.init({ duration: 2000 })
+        Aos.init({ duration: 3000 })
     }, [])
     return (
         <section data-aos="fade-up" className="information general-container">

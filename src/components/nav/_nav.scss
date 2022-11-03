@@ -51,6 +51,9 @@
         border-bottom: 1px solid rgb(198, 198, 198);
         color: $color-text;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        @include mobile {
+            position: relative;
+        }
         
         &_logo {
             display: flex;
@@ -67,8 +70,9 @@
             }
             @include mobile {
                 justify-content: flex-end;
-                padding-right: $spacing-lg;
-              
+                position: absolute;
+                right: 30px;
+                top: 16px;       
             }
         }
         &_menu {

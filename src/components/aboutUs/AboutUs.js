@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 function AboutUs() {
     useEffect(() => {
-        Aos.init({ duration: 2000 })
+        Aos.init({ duration: 3000 })
     }, [])
     return (
         <section className="about general-container">
@@ -23,7 +23,7 @@ function AboutUs() {
                 kombajnach, pługach. Na specjalne zamówienie oferujemy sprężyny 
                 wykorzystywane w maszynach do spulchniania gleby.
             </h3>
-            <h3 className="about_sectors" data-aos="fade-up">Zastosowanie naszych produktów</h3>
+            <h2 className="about_sectors" data-aos="fade-up">Zastosowanie naszych produktów</h2>
         </section>
     );
 }

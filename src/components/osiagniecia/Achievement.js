@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 
 function Achievement() {
     useEffect(() => {
-        Aos.init({ duration: 2000 })
+        Aos.init({ duration: 3000 })
     }, [])
 
     return (

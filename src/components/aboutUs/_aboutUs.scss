@@ -7,16 +7,19 @@
       margin-top: $spacing-lg;
    }
    &_text {
-   color: $color-text;
-   margin: $spacing-md 0;
-   font-size: 24px;
-   line-height: 1.6;
-   font-weight: 300;
+      color: $color-text;
+      margin: $spacing-md 0;
+      font-size: 24px;
+      line-height: 1.6;
+      font-weight: 300;
       @include desktop {
          font-size: 22px;
       }
       @include mobile {
         margin: $spacing-sm 0;
       }
+   }
+   &_sectors {
+      margin-top: $spacing-md;
    }
 }

@@ -9,9 +9,9 @@ function SpringWave(props) {
         <>
         <div className="springs-background">
             <div className="sub-product general-container">
-                <div className="spring-nav ">
+                <div className="spring-nav">
                     <HashLink to='/produkty#produkty'
-                        scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
+                       scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}
                     >
                         <h2 className="spring-nav-back">Produkty</h2>
                     </HashLink>

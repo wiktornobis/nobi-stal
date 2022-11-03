@@ -15,6 +15,7 @@ import SpringTorsion from "./components/pages/subproducts/SpringTorsion";
 import SpringDiscs from "./components/pages/subproducts/SpringDiscs";
 import SpringWave from "./components/pages/subproducts/SpringWave";
 import WireBentMolds from "./components/pages/subproducts/ WireBentMolds";
+import ScrollToTop from "./ScrollToTop";
 
 
 
@@ -24,6 +25,7 @@ function App() {
   return (
     <Router>
         <Nav />
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home />} />   
           <Route path='/kontakt' element={<Contact />} />   

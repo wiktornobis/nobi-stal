@@ -27,14 +27,14 @@ $spacing-xxl: 150px;
     margin-right: $spacing-xl;
     @media only screen and (min-width: $desktop-width) and (max-width: 1920px){
         & {
-            margin-left: $spacing-xl;
-            margin-right: $spacing-xl;
+            margin-left: $spacing-xxl;
+            margin-right: $spacing-xxl;
         }
     }
     @media only screen and (max-width: 1300px) {
         & {
-            margin-left: $spacing-xl;
-            margin-right: $spacing-xl;
+            margin-left: $spacing-xxl;
+            margin-right: $spacing-xxl;
         }
     }
     @media only screen and (max-width: 1100px) {

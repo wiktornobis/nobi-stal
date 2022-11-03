@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 
 function Catalog() {
     useEffect(() => {
-        Aos.init({ duration: 2000 })
+        Aos.init({ duration: 3000 })
     }, [])
     return (
         <section className="catalog general-container" data-aos="fade-up">

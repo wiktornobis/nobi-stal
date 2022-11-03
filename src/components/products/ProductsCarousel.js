@@ -10,7 +10,7 @@ import { useEffect } from 'react';
 
 function ProductsCarousel() {
     useEffect(() => {
-        Aos.init({ duration: 2000 })
+        Aos.init({ duration: 3000 })
     }, [])
 
     let settings = {
@@ -22,6 +22,30 @@ function ProductsCarousel() {
         swipeToSlide: true,
         autoplay: true,
         autoplaySpeed: 3500,
+        responsive: [
+            {   
+                breakpoint: 1200,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                }
+          
+            },
+            {   
+            breakpoint: 960,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            }
+      
+            },
+            {
+            breakpoint: 500,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+        }]   
       };
     return (
         <>

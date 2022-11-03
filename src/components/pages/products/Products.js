@@ -2,12 +2,12 @@ import './_products.scss';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import { useNavigate } from "react-router-dom";
+import {  Link } from "react-router-dom";
 
 function Products({products}) {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     useEffect(() => {
-        Aos.init({ duration: 2000 })
+        Aos.init({ duration: 3000 })
     }, [])
     return (
         <>
@@ -29,9 +29,8 @@ function Products({products}) {
                 <h3 id='produkty' className="products_main_products_title" data-aos="fade-up">Produkty</h3>
                 <div className="items" data-aos="fade-up">
                     {products.map((products, index) => (
-                            <div key={index} className='items_container' onClick={() => {
-                                navigate(`/produkty/${products.id}`)
-                            }}>  
+                        <Link to={`/produkty/${products.id}`}>
+                            <div key={index} className='items_container'>  
                                 <img
                                     className='items_container_img'
                                     src={products.img}
@@ -40,7 +39,7 @@ function Products({products}) {
                                 <h3 className='items_container_text'>{products.title}</h3>
                                 <p className='items_container_title'>{products.text}</p>
                             </div>
-                      
+                        </Link>
                     ))}
                 </div>
                 <div className="information">
