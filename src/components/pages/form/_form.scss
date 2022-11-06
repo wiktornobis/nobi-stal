@@ -14,7 +14,10 @@
         padding: 20px;
         border-radius: 5px;
         margin-bottom: $spacing-xl;
-
+        .logo {
+            width: 40%;
+            margin-bottom: 30px;
+        }
         // @include desktop {
         //     height: 500px;
         //     width: 400px;
@@ -29,7 +32,6 @@
        
         &_title {
             font-size: 38px;
-            margin-bottom: 35px;
             padding-top: 30px;
 
             // @include desktop {

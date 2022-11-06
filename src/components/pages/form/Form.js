@@ -3,6 +3,8 @@ import * as Yup from 'yup';
 import { TextField } from './TextField';
 import { Field } from './Field';
 import { useState } from 'react';
+import { Button} from '@mui/material';
+import logo from '../../../assets/nobistal.png';
 // import Axios from 'axios';
 
 import './_form.scss';
@@ -28,6 +30,7 @@ function Formularz() {
     return (
         <div id='kontakt' className="contact_form_form">        
             <div className="contact_form_right">
+                <img src={logo} alt="logo firmy" className='logo'/>
                 <h3 className="contact_form_right_title">Skontaktuj się z nami</h3>
                 <Formik
                     initialValues={{
@@ -104,11 +107,9 @@ function Formularz() {
                                     />
                                 </div>
                                 <div className="contact_form_right_form_first-btn">
-                                    <button className="contact_form_right_form_first-btn-submit" 
-                                            type="submit"
-                                    >
+                                    <Button className='catalog_btn' variant="outlined" size="small" type='submit'>
                                         Wyślij
-                                    </button> 
+                                    </Button>
                                 </div>
                             </Form>
                         </div>
