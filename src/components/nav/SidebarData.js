@@ -11,13 +11,13 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Kontakt',
-        path: '/kontakt',
+        title: 'Formularz',
+        path: '/formularz',
         cName: 'nav-text'
     },
     {
-        title: 'Dojazd',
-        path: '/dojazd',
+        title: 'Kontakt',
+        path: '/kontakt',
         cName: 'nav-text'
     },
 ]

@@ -46,6 +46,7 @@
 }
 .nav-menu {
   background-color: $color-primary;
+  color: white;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -75,7 +76,7 @@
 
 }
 .nav-text a {
-  color: black;
+  color: white;
   font-size: 30px;
   width: 100%;
   display: flex;
@@ -87,9 +88,10 @@
     padding: 20px 0;
     width: 100%;
     padding-left: 0;
-    span {
-      color: black;
-    }
+    color: $color-primary;
+    // span {
+    //   color: black;
+    // }
   }
 }
 

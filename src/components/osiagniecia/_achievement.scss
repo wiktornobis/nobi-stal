@@ -18,6 +18,10 @@
         background-color: $color-column;
         padding: $spacing-lg 0;
         margin-top: $spacing-lg;
+        @include mobile {
+            padding: $spacing-md 0;
+            gap: 10px;
+        }
         &_first,
         &_second,
         &_third {
@@ -30,6 +34,9 @@
             padding: 0 10px;
             @include tablet {
                 gap: 40px;
+            }
+            @include mobile {
+                gap: 20px;
             }
             &_img {
                 color: white !important;

@@ -32,12 +32,25 @@
 .spring-compression {
     display: flex;
     padding-bottom: $spacing-xl;
+    gap: $spacing-lg;
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: $spacing-md;
+        &:nth-child(1) {
+            align-items: center;
+        }
+    }
     .left-container {
         margin-top: $spacing-sm;
         display: flex;
         flex-direction: column;
         gap: $spacing-sm;
-        width: 50%;
+        width: 60%;
+        @include mobile {
+            width: 100%;
+            order: 2;
+        }
         .spring-text {
             line-height: 1.7;
             padding: 10px 0 0px 20px;
@@ -55,10 +68,22 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        width: 50%;
+        width: 40%;
+        @include mobile {
+            width: 100%;
+            order: 1;
+            padding: 0 15%;
+        }
         &-img {
-            width: 250px;
-            padding-bottom: $spacing-xxl;
+            width: 70%;
+            padding-top: 90px;
+            @include tablet {
+                width: 60%;
+                padding-top: 80px;
+            }
+            @include mobile {
+                padding-top: $spacing-sm;
+            }
         }
     }
 }

@@ -164,6 +164,9 @@ li {
   p {
     font-size: 16px !important;
   }
+  li {
+    font-size: 14px !important;
+  }
 }
 @include mobile {
   h2 {
@@ -173,9 +176,12 @@ li {
     font-size: 14px !important;
   }
     h4 {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
   p {
+    font-size: 13px !important;
+  }
+  li {
     font-size: 13px !important;
   }
 }

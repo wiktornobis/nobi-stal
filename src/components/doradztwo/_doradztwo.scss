@@ -40,11 +40,15 @@
         position: relative;
         @include mobile {
             margin: $spacing-lg $spacing-sm;
+            padding: 0 $spacing-sm;
         }
         &_title {
             padding-top: $spacing-md;
             padding-bottom: $spacing-lg;
             color: $color-white;
+            @include mobile {
+                padding-bottom: $spacing-md;
+            }
         }
         &_text {
             font-size: 24px;
@@ -60,5 +64,10 @@
         position: relative;
         left: 85px;
         top: 60px;
+        @include mobile {
+            left: 43px;
+            top: 33px;
+            padding-left: 35%;
+        }
     }
 }

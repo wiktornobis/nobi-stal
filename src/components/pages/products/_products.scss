@@ -9,6 +9,16 @@
         padding: $spacing-xl 0;
         gap: $spacing-md;
         width: 60%;
+        @include tablet {
+            width: 70%;
+            gap: $spacing-sm;
+            padding: $spacing-md 0;
+        }
+        @include mobile {
+            width: 80%;
+            gap: $spacing-sm;
+            padding: $spacing-md 0;
+        }
         &_title {
             color: white;
         }
@@ -17,6 +27,9 @@
             line-height: 1.6;
             font-weight: 300;
             padding: $spacing-md 0;
+            @include mobile {
+                padding: $spacing-sm 0;
+            }
         }
     }
 }
@@ -65,7 +78,7 @@
                     padding: 0 60px;
                 }
                 @include mobile {
-                    padding: 0 170px;
+                    padding: 0 25%;
                 }
             }
         }
