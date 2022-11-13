@@ -17,7 +17,8 @@
                 margin-left: $spacing-xl;
             }
             @include mobile {
-                margin-left: $spacing-md;
+                margin-left: $spacing-sm;
+                font-size: 10px !important;
             }
             &:hover {
                border-bottom: 2px solid black;
@@ -39,15 +40,15 @@
         color: $color-white;
         position: relative;
         @include mobile {
-            margin: $spacing-lg $spacing-sm;
+            margin: $spacing-lg 13px;
             padding: 0 $spacing-sm;
         }
         &_title {
-            padding-top: $spacing-md;
+            padding-top: $spacing-sm;
             padding-bottom: $spacing-lg;
             color: $color-white;
             @include mobile {
-                padding-bottom: $spacing-md;
+                padding-bottom: $spacing-sm;
             }
         }
         &_text {

@@ -1,68 +1,42 @@
-@import '../../../utils/variables';
+@import '../../../utils/breakpoints';
+#kontakt {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.17) 0%, rgba(0, 0, 0, 0.9));
+    background: url('../../../assets/tlo-sprezyny.jpg');
+    background-size: cover;
+    padding: $spacing-md 0;
+}
 
 .contact_form {
      &_right {
-        height: 650px;
+        height: 670px;
         width: 500px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        margin-top: 100px;
         background-color: $color-column;
-        padding: 20px;
+        padding: 60px 20px 20px 20px;
         border-radius: 5px;
-        margin-bottom: $spacing-xl;
+       
         .logo {
             width: 40%;
             margin-bottom: 30px;
-        }
-        // @include desktop {
-        //     height: 500px;
-        //     width: 400px;
-        //     top: 100px;
-        // }  
-        // @include tablet {
-        //     height: 400px;
-        //     width: 300px;
-        //     top: 80px;
-        //     right: 3%;
-        // }  
-       
+        }       
         &_title {
             font-size: 38px;
             padding-top: 30px;
-
-            // @include desktop {
-            //     font-size: 30px;
-            //     margin-bottom: 20px;
-            // }  
-            // @include tablet {
-            //     font-size: 24px;
-            //     margin-bottom: 15px;
-            // }  
         }
 
         &_form {
             width: 100%;
             margin-top: 80px;
-
-            //  @include desktop {
-            //     margin-top: 60px;
-            // }  
-            // @include tablet {
-            //     margin-top: 50px;
-            // }  
-            
             &_first {
                 display: flex;
                 gap: 20px;
-
                 &-name {
                     width: 100%;
                 }
-
                 &-name input {
                     padding: 5px 0;
                     border: none;
@@ -70,22 +44,9 @@
                     font-size: 18px;
                     outline: none;
                     width: 100%;
-
-                    // @include desktop {
-                    //     font-size: 16px;
-                    // } 
-                    // @include tablet {
-                    //     font-size: 14px;
-                    // } 
                 }
-
                 &-text {
                     margin-top: 50px;
-                    
-                    // @include desktop {
-                    //     margin-top: 30px;
-                    // } 
-
                     &-area {
                         padding: 10px 0;
                         height: 105px;
@@ -94,22 +55,18 @@
                         font-size: 18px;
                         outline: none;
                         resize: none;   
-
-                        // @include desktop {
-                        //     height: 110px;
-                        //     font-size: 16px;
-                        // }  
                     }
                 }
-
                 &-btn {
                     margin-top: 60px;
                     display: flex;
                     justify-content: flex-end;
-              
-                    // @include desktop {
-                    //     margin-top: 40px;
-                    // }  
+                    button {
+                        font-size: 16px;
+                    }
+                    @include desktop {
+                        margin-top: 40px;
+                    }  
 
                     &-submit {
                         font-size: 18px;
@@ -119,15 +76,6 @@
                         background-color: white;
                         cursor: pointer;
                         color: black;
-  
-                        // @include desktop {
-                        //     font-size: 16px;
-                        //     padding: 10px 40px;
-                        // }  
-                        // @include tablet {
-                        //     font-size: 14px;
-                        //     padding: 8px 30px;
-                        // }    
                     }
                 }
             }
@@ -142,12 +90,12 @@
 label {
     font-size: 16px;
    
-    // @include desktop {
-    //     font-size: 14px;
-    // } 
-    // @include tablet{
-    //     font-size: 12px;
-    // } 
+    @include desktop {
+        font-size: 14px;
+    } 
+    @include tablet{
+        font-size: 12px;
+    } 
   }
 
 .error {
@@ -156,9 +104,9 @@ top: 5px;
 color: red;
 font-size: 14px;
 
-// @include desktop {
-//     font-size: 12px;
-// } 
+@include desktop {
+    font-size: 12px;
+} 
 
     &::after {
         content: '';
@@ -195,9 +143,9 @@ input, textarea {
     font-weight: 600;
     height: 0px;
 
-    // @include mobile {
-    //     font-size: 14px;
-    // }
+    @include mobile {
+        font-size: 14px;
+    }
 }
 
 .success-send {
@@ -208,7 +156,7 @@ input, textarea {
     font-size: 16px;
     font-weight: 600;
 
-    // @include mobile {
-    //     font-size: 14px;
-    // }
+    @include mobile {
+        font-size: 14px;
+    }
 }

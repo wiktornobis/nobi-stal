@@ -2,18 +2,32 @@
 @import "../../../utils/variables";
 
 .contact {
-  background-color: $color-primary;
-  padding: $spacing-xxl 0;
-  width: 50%;
+  display: flex;
+  &-left-container {
+    width: 60%;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    background: whitesmoke;
+    margin-bottom: 120px;
+  }
+  &-right-container {
+    width: 40%;
+    background: url('../../../assets/contact.jpg');
+    background-size: cover;
+    height: 700px;
+    right: 0;
+    top: 2px;
+  }
 }
 .main-contact {
   display: flex;
   justify-content: center;
-  color: white;
+  color: $color-text-dark;
+  margin-bottom: $spacing-lg;
 }
 .second-contact{
   margin-bottom: $spacing-sm;
-  color: white;
+  color: $color-text-dark;
 }
 
 .contact_container {
@@ -22,7 +36,7 @@
   gap: 150px;
   max-width: 900px;
   margin: 0 auto;
-  color: white;
+  color: $color-text-dark;
 
   &_left {
     width: 50%;
@@ -59,4 +73,6 @@
     }
   }
 }
-
+.map {
+  margin: 100px;
+}

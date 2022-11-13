@@ -25,13 +25,13 @@ function Doradztwo() {
                 </Link>
             </div>
             <div className="information_second_container">
-                <h2 data-aos="fade-right" className="information_second_container_title">Produkcja sprężyn oraz sit</h2>
-                <p data-aos="fade-right" className="information_second_container_text">
+                <h2 data-aos="fade-up" className="information_second_container_title">Produkcja sprężyn oraz sit</h2>
+                <p data-aos="fade-up"className="information_second_container_text">
                     Nobi-Stal posiada ogromne doświadczenie i oferuje jedne z największych 
                     na rynku możliwości produkcji sprężyn technicznych, sit preferowanych,
                      tkanych, plecionych oraz cięto ciągnionych 
                 </p>
-                <img data-aos="fade-left" class="defer-image is-loaded image-ratio:61 applied-default img" src={img} alt="" />
+                <img data-aos="fade-up" class="defer-image is-loaded image-ratio:61 applied-default img" src={img} alt="" />
             </div>
         </section>
     );
