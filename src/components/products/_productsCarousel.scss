@@ -17,7 +17,20 @@
         margin: $spacing-lg 0;
      }
     .product {
-        padding: 10px;
+        background-color: $color-column;
+        height: 500px;
+        text-align: center;
+        img {
+            margin: 0 10px;
+            padding: $spacing-xl;
+        }
+        .items_text {
+            margin: 20px 0;
+        }
     }    
 }
 
+.slick-slide {
+    // margin: 0 5px;
+    cursor: pointer;
+}

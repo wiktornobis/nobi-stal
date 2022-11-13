@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 import {  Link } from "react-router-dom";
 
 function Products({products}) {
-    // const navigate = useNavigate();
     useEffect(() => {
         Aos.init({ duration: 3000 })
     }, [])
