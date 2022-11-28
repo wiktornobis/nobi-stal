@@ -29,15 +29,23 @@
         }
         img {
             height: 450px;
-            padding: 90px 60px;
+            padding: 90px 80px;
+            cursor: pointer;
+            @include full-hd {
+                padding: 80px 60px;
+                height: 350px;
+            }
             @include desktop {
-                padding: 90px 40px;
+                height: 320px;
+                padding: 80px 50px;
             }
             @include tablet {
-                padding: 80px 30px;
+                padding: 60px;
+                height: 300px;
             }
             @include mobile {
-                height: 420px;
+                padding: 40px 70px;
+                height: 300px;
             }
         }
         .items_text {
@@ -55,5 +63,4 @@
 .slick-slide {
     // margin: 0 5px;
     border: 4px solid white;
-    cursor: pointer;
 }

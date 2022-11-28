@@ -26,7 +26,7 @@ function ProductsCarousel() {
         slidesToShow: 3,
         slidesToScroll: 1,
         swipeToSlide: true,
-        autoplay: false,
+        autoplay: true,
         adaptiveHeight: false,
         mobileFirst: true, 
         autoplaySpeed: 2500,
@@ -42,6 +42,14 @@ function ProductsCarousel() {
                   slidesToShow: 3,
                   slidesToScroll: 1,
                   centerPadding: "160px",
+                }
+            },
+            {   
+                breakpoint: 1580,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  centerPadding: "115px",
                 }
             },
             {   
@@ -87,41 +95,51 @@ function ProductsCarousel() {
                 </h3>
             </div>
             <Slider {...settings} className="general-container products">
-                <Link to='produkty/2'>
-                    <div className="product" data-aos="fade-up">
+               
+                <div className="product" data-aos="fade-up">
+                    <Link to='produkty/2'>
                         <img className="defer-image is-loaded image-ratio:61 applied-default" src={naciagowe} alt="sprężyny naciągowe" />
-                        <h3 className='items_text'>Spręyny ściskowe</h3>
-                        <p className='items_title'>Spręyny techniczne</p>
-                    </div>
-                </Link>
-                <Link to='produkty/6'>
-                    <div className="product" data-aos="fade-up">
+                    </Link>
+                    <h3 className='items_text'>Spręyny ściskowe</h3>
+                    <p className='items_title'>Spręyny techniczne</p>
+                </div>
+             
+            
+                <div className="product" data-aos="fade-up">
+                    <Link to='produkty/6'>
                         <img className="defer-image is-loaded image-ratio:61 applied-default" src={formy} alt="formy gięte z drutu" />
-                        <h3 className='items_text'>Formy giętę z drutu</h3>
-                        <p className='items_title'>Spręyny techniczne</p>
-                    </div>
-                </Link>
-                <Link to='produkty/1'>
-                    <div className="product" data-aos="fade-up">
+                    </Link>
+                    <h3 className='items_text'>Formy giętę z drutu</h3>
+                    <p className='items_title'>Spręyny techniczne</p>
+                </div>
+            
+            
+                <div className="product" data-aos="fade-up">
+                    <Link to='produkty/1'>
                         <img className="defer-image is-loaded image-ratio:61 applied-default" src={sciskowe} alt="sprężyny naciskowe" />
-                        <h3 className='items_text'>Spręyny naciskowe</h3>
-                        <p className='items_title'>Spręyny techniczne</p>
-                    </div>
-                </Link>
-                <Link to='produkty/5'>
-                    <div className="product" data-aos="fade-up">
+                    </Link>
+                    <h3 className='items_text'>Spręyny naciskowe</h3>
+                    <p className='items_title'>Spręyny techniczne</p>
+                </div>
+            
+                
+                <div className="product" data-aos="fade-up">
+                    <Link to='produkty/5'>
                         <img className="defer-image is-loaded image-ratio:61 applied-default" src={faliste} alt="sprężyny faliste" />
-                        <h3 className='items_text'>Spręyny faliste</h3>
-                        <p className='items_title'>Spręyny techniczne</p>
-                    </div>
-                </Link>
-                <Link to='produkty/4'>
-                    <div className="product" data-aos="fade-up">
+                    </Link>
+                    <h3 className='items_text'>Spręyny faliste</h3>
+                    <p className='items_title'>Spręyny techniczne</p>
+                </div>
+        
+    
+                <div className="product" data-aos="fade-up">
+                    <Link to='produkty/4'>
                         <img className="defer-image is-loaded image-ratio:61 applied-default" src={talerzowe} alt="sprężyny talerzowe" />
-                        <h3 className='items_text'>Spręyny talerzowe</h3>
-                        <p className='items_title'>Spręyny techniczne</p>
-                    </div> 
-                </Link>
+                    </Link>
+                    <h3 className='items_text'>Spręyny talerzowe</h3>
+                    <p className='items_title'>Spręyny techniczne</p>
+                </div> 
+
             </Slider>
         </>
         

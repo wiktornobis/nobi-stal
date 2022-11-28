@@ -10,6 +10,8 @@
   z-index: 20;
   margin-top: $spacing-xxl;
   background-color: $color-white;
+  // position: absolute;
+  // bottom: 0;
   &::before {
     content: '';
     background: url('../../assets/nobistal.png');

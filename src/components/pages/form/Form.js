@@ -5,7 +5,7 @@ import { Field } from './Field';
 import { useState } from 'react';
 import { Button} from '@mui/material';
 import logo from '../../../assets/nobistal.png';
-// import Axios from 'axios';
+import Axios from 'axios';
 
 import './_form.scss';
 
@@ -40,23 +40,25 @@ function Formularz() {
                     }}
                     validationSchema={validate}
                     onSubmit={async (values, {resetForm}) => {
-                        // const data = {
-                        //     name:values.name,
-                        //     email: values.email,
-                        //     message: values.message,                    
-                        // }
+                        const data = {
+                            name:values.name,
+                            email: values.email,
+                            message: values.message,                    
+                        }
                         resetForm()
 
-                        // const axiosConfig = {
-                        //     headers: {
-                        //         'Content-Type': 'application/json'
-                        //     }
-                        // }
-                        // await Axios.post(
-                        //     'https://fer-api.coderslab.pl/v1/portfolio/contact_form',
-                        //     JSON.stringify(data),
-                        //     axiosConfig
-                        // )
+                        const axiosConfig = {
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            // url: 'http://localhost/project_nobistal/dodaj.php',
+                        }
+                        await Axios.post(
+                            'https://fer-api.coderslab.pl/v1/portfolio/contact',
+                            JSON.stringify(data),
+                            axiosConfig
+                            
+                        )
                             .then((response) => {
                                 setModal(true)          
                             })
