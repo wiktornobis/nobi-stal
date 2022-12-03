@@ -15,7 +15,7 @@
             padding: $spacing-md 0;
         }
         @include mobile {
-            width: 80%;
+            width: 90%;
             gap: $spacing-sm;
             padding: $spacing-md 0;
         }
@@ -37,6 +37,10 @@
     margin: $spacing-xl;
     &_title {
         margin: $spacing-md 0;
+        @include mobile {
+            font-size: 18px !important;
+            font-weight: 700;
+        }
     }
     .items {
         display: grid;
@@ -79,6 +83,7 @@
                 }
                 @include mobile {
                     padding: 0 25%;
+                    height: 180px;
                 }
             }
         }

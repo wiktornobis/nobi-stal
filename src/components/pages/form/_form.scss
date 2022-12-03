@@ -18,7 +18,11 @@
         background-color: $color-column;
         padding: 60px 20px 20px 20px;
         border-radius: 5px;
-       
+        @include mobile {
+            width: 90%;
+            height: 90%;
+            padding: 40px 20px 20px 20px; 
+        }
         .logo {
             width: 40%;
             margin-bottom: 30px;
@@ -26,11 +30,17 @@
         &_title {
             font-size: 38px;
             padding-top: 30px;
+            @include mobile {
+                padding: 0;
+            }
         }
 
         &_form {
             width: 100%;
             margin-top: 80px;
+            @include mobile {
+                margin-top: 30px;
+            }
             &_first {
                 display: flex;
                 gap: 20px;

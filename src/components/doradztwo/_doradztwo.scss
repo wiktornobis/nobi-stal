@@ -56,7 +56,9 @@
             padding-right: 20%;
             line-height: 1.5;
             font-weight: 300;
-            // padding-bottom: $spacing-xxl;
+            @include mobile {
+                padding-right: 0;
+            }
         }  
         
     }
@@ -66,9 +68,12 @@
         left: 85px;
         top: 60px;
         @include mobile {
-            left: 43px;
-            top: 33px;
-            padding-left: 35%;
+            left: 50%;
+            right: 50%;
+            transform: translate(-50%, -50%) !important;
+            top: 150px;
+            padding-left: 10%;
+            padding: 0;
         }
     }
 }

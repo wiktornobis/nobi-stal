@@ -46,17 +46,18 @@ function Formularz() {
                             message: values.message,                    
                         }
                         resetForm()
-
+                        const url = 'http://localhost/project_nobi_stal/dodaj.php';
                         const axiosConfig = {
                             headers: {
                                 'Content-Type': 'application/json'
                             },
-                            // url: 'http://localhost/project_nobistal/dodaj.php',
+                           
                         }
                         await Axios.post(
-                            'https://fer-api.coderslab.pl/v1/portfolio/contact',
+                            // 'https://fer-api.coderslab.pl/v1/portfolio/contact',
                             JSON.stringify(data),
-                            axiosConfig
+                            axiosConfig,
+                            url
                             
                         )
                             .then((response) => {

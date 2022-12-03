@@ -9,6 +9,7 @@
             font-size: 12px !important;
         }
     }
+    
     @include mobile {
         margin-top: $spacing-xxl;
         margin-bottom: $spacing-md;
@@ -27,7 +28,8 @@
         margin-top: $spacing-lg;
         @include mobile {
             padding: $spacing-md 7px;
-            gap: 15px;
+            gap: 5px;
+            margin-top: $spacing-md;
         }
     }
 }

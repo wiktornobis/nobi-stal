@@ -20,12 +20,15 @@
             color: $color-text-dark;
             text-decoration: underline;
         }
+        @include mobile {
+            font-size: 14px !important;
+        }
+        
     }
     &-current {
         font-size: 16px;
         font-weight: bold;
         position: relative;
-      
     }
 }
 
