@@ -1,0 +1,27 @@
+{
+    "nav": {
+        "1": "Main Page",
+        "2": "Products",
+        "3": "Form",
+        "4": "Contact"        
+    },
+    "about": {
+        "title": "About Us",
+        "text": "Nobi-Stal is an expert in the production of springs and screens. Nobi-Stal's customers are companies from all over the world who use our products in the mining, agricultural, construction, energy industries. Our springs are characterized by very good strength properties because they use advanced production technology. Industries such as agriculture, mining, construction, energy require components that will stand up to harsh conditions and ensure long service life of machinery. Our springs are used, among others: tractors, harvesters, plows. On special order we offer springs used in soil loosening machines.",
+        "sectors": "The use of our products"
+    },
+    "sectors": {
+        "industry1": "Construction",
+        "industry2": "Agriculture",
+        "industry3": "Mining"
+    },
+    "subpage.products": {
+        "title": "All Nobi-Stal products are available upon ordering.",
+        "text": "NOBI-STAL specializes in the production of technical springs both in large quantities and in single orders.In the case of special springs, Nobi-Stal has the ability to produce to the customer's special order.",
+        "industry3": "Górnictwo"
+    },
+    "carousel.products": {
+        "title": "Our products",
+        "text": "We have a lot of experience in production, and we offer the possibility of making springs on special order."
+    }
+}

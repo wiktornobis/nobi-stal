@@ -3,8 +3,10 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import {  Link } from "react-router-dom";
+import { useTranslation} from 'react-i18next';
 
 function Products({products}) {
+    const { t } = useTranslation();
     useEffect(() => {
         Aos.init({ duration: 3000 })
     }, [])
@@ -12,16 +14,8 @@ function Products({products}) {
         <>
             <div className="products_main">
                 <div className="products_main_container general-container">
-                    <h2 className="products_main_container_title">
-                        Wszystkie produkty firmy Nobi-Stal są dostępne po uprzednim zamówieniu.  
-                    </h2>
-                    <h3 className="products_main_container_text">
-                    NOBI-STAL specjalizuje się w produkcji sprężyn technicznych zarówno 
-                    w dużych ilościach jak i w pojedynczych zamówieniach.
-                    W przypadku sprężyn specjalnych Nobi-Stal ma możliwość 
-                    produkcji na specjalne zamówienie klienta.
-                    </h3>
-                    
+                    <h2 className="products_main_container_title">{t('subpage.products.title')}</h2>
+                    <h3 className="products_main_container_text">{t('subpage.products.text')}</h3>
                 </div>
             </div>
             <div className="products_main_products general-container">
@@ -35,7 +29,7 @@ function Products({products}) {
                                     src={products.img}
                                     alt={products.title}
                                 />
-                                <h3 className='items_container_text'>{products.title}</h3>
+                                <h3 className='items_container_text'>{t(products.title)}</h3>
                                 <p className='items_container_title'>{products.text}</p>
                             </div>
                         </Link>

@@ -12,10 +12,13 @@ import sciskowe from '../../assets/sprezyny-sciskowe.png';
 import formy from '../../assets/formy-giete-z-drutu.png';
 import talerzowe from '../../assets/sprezyny-talerzowe.png';
 
+import { useTranslation} from 'react-i18next';
+
 
 import { useEffect } from 'react';
 
 function ProductsCarousel() {
+    const { t } = useTranslation();
     useEffect(() => {
         Aos.init({ duration: 3000 })
     }, [])
@@ -88,10 +91,9 @@ function ProductsCarousel() {
     return (
         <>
             <div className="products_box general-container">
-                <h2 className="products_box_title" data-aos="fade-up">Nasze produkty</h2>
+                <h2 className="products_box_title" data-aos="fade-up">{t('carousel.products.title')}</h2>
                 <h3 className="products_box_text" data-aos="fade-up">
-                    Posiadamy duże doświadczenie w produkcji, oferujemy możliwość 
-                    wykonaniasprężyn na specjalne zamówienie.
+                    {t('carousel.products.text')}
                 </h3>
             </div>
             <Slider {...settings} className="general-container products">
