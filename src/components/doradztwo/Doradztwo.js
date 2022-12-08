@@ -8,8 +8,10 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 import { useEffect } from 'react';
+import { useTranslation} from 'react-i18next';
 
 function Doradztwo() {
+    const { t } = useTranslation();
     useEffect(() => {
         Aos.init({ duration: 3000 })
     }, [])
@@ -17,19 +19,17 @@ function Doradztwo() {
         <section data-aos="fade-up" className="information general-container">
             <div className="information_first_container">
                 <FontAwesomeIcon className="information_first_container_icon" icon={faMessage} />
-                <h3 className="information_first_container_title">Potrzebujesz doradztwa?</h3>
+                <h3 className="information_first_container_title">{t('doradztwo.title')}</h3>
                 <Link to='/formularz'>
                     <h4 className="information_first_container_text">
-                        wypełnij formularz
+                        {t('doradztwo.text')}
                     </h4>
                 </Link>
             </div>
             <div className="information_second_container">
-                <h2 data-aos="fade-up" className="information_second_container_title">Produkcja sprężyn oraz sit</h2>
+                <h2 data-aos="fade-up" className="information_second_container_title">{t('doradztwo.secondTitle')}</h2>
                 <p data-aos="fade-up"className="information_second_container_text">
-                    Nobi-Stal posiada ogromne doświadczenie i oferuje jedne z największych 
-                    na rynku możliwości produkcji sprężyn technicznych, sit preferowanych,
-                     tkanych, plecionych oraz cięto ciągnionych 
+                    {t('doradztwo.secondText')}
                 </p>
                 <img data-aos="fade-up" class="defer-image is-loaded image-ratio:61 applied-default img" src={img} alt="" />
             </div>

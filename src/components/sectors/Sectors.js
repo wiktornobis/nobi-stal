@@ -18,7 +18,7 @@ function Sectors() {
         <section className="sectors" data-aos="fade-up">
             <div className="sectors_article">
                 <img class="defer-image is-loaded image-ratio:61 applied-default" src={img1} alt="" />
-                <h3 className="sectors_article_title">{t('sectors.industry1')}</h3>
+                <h3 className="sectors_article_title">{t('about.title')}</h3>
             </div>
             <div className="sectors_article">
                 <img class="defer-image is-loaded image-ratio:61 applied-default" src={img2} alt="" />

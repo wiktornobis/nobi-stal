@@ -23,5 +23,20 @@
     "carousel.products": {
         "title": "Nasze produkty",
         "text": "Posiadamy duże doświadczenie w produkcji, oferujemy możliwość wykonaniasprężyn na specjalne zamówienie."
+    },
+    "doradztwo": {
+        "title": "Potrzebujesz doradztwa?",
+        "text": "wypełnij formularz",
+        "secondTitle": "Produkcja sprężyn oraz sit",
+        "secondText": "Nobi-Stal posiada ogromne doświadczenie i oferuje jedne z największych na rynku możliwości produkcji sprężyn technicznych, sit preferowanych, tkanych, plecionych oraz cięto ciągnionych"
+    },
+    "achievement": {
+        "title": "Dlaczego NOBI-STAL to najlepszy wybór?",
+        "text1": "Zaufana marka",
+        "text2": "Kontrola zapasów",
+        "text3": "Terminowość",
+        "text4": "Ponad 10 lat doświadczenia",
+        "text5": "Sprężyny dostępne od ręki",
+        "text6": "Nasze zamówienia realizujemy zgodnie z terminem"
     }
 }

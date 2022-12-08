@@ -23,5 +23,20 @@
     "carousel.products": {
         "title": "Our products",
         "text": "We have a lot of experience in production, and we offer the possibility of making springs on special order."
+    },
+    "doradztwo": {
+        "title": "Do you need advice?",
+        "text": "fill in the form",
+        "secondTitle": "Manufacturing of springs and screens",
+        "secondText": "Nobi-Stal has huge experience and offers one of the largest capacities in the market for the production of technical springs, preferred, woven, braided and expanded metal screens"
+    },
+    "achievement": {
+        "title": "Why is NOBI-STAL the best choice?",
+        "text1": "Trusted brand",
+        "text2": "Inventory Control",
+        "text3": "Timeliness",
+        "text4": "More than 10 years of experience",
+        "text5": "Springs available from stock",
+        "text6": "We fulfill our orders according to the deadline"
     }
 }

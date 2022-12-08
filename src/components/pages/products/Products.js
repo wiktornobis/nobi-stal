@@ -3,6 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import {  Link } from "react-router-dom";
+
 import { useTranslation} from 'react-i18next';
 
 function Products({products}) {
