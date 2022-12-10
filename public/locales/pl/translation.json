@@ -20,6 +20,16 @@
         "text": " NOBI-STAL specjalizuje się w produkcji sprężyn technicznych zarówno w dużych ilościach jak i w pojedynczych zamówieniach.W przypadku sprężyn specjalnych Nobi-Stal ma możliwość produkcji na specjalne zamówienie klienta.",
         "industry3": "Górnictwo"
     },
+    "subpage.productsInformation": {
+        "title": "NOBI-STAL",
+        "text1": "Nobi-stal jest jednym z największych dostawców sprężyn technicznych dostępnych z magazynu. Dzięki szerokiej gamie produktów wysokiej jakości dostarczamy sprężyny szybko i po korzystnej cenie. Wieloletnia tradycja i międzynarodowy charakter firmy sprawia, że rozwiązania Nobi-Stal spełniają wymogi zarówno norm europejskich, UIC, rosyjskich GOST, jak i chińskich TB/T. Innowacyjność, kompetencje technologiczne i konstrukcyjne, kilkadziesiąt lat doświadczenia i chęć podążania za stale rosnącymi wymaganiami Klientów stanowią o jakości oferowanych produktów i rozwiązań.",
+        "text2": "Ciągle poszerzamy naszą ofertę produktową stając się jeszcze lepszym partnerem dla naszych Klientów.",
+        "list1": "Szybka dostawa Katalog sprężyn i standardowych części",
+        "list2": "Dostawa prototypów",
+        "list3": "Stopniowe ceny sprężyn standardowych",
+        "list4": "Najwyższa jakość",
+        "list5": "Guaranteed quality delivery according DIN / NEN / ISO0"
+    },
     "carousel.products": {
         "title": "Nasze produkty",
         "text": "Posiadamy duże doświadczenie w produkcji, oferujemy możliwość wykonaniasprężyn na specjalne zamówienie."
@@ -38,5 +48,10 @@
         "text4": "Ponad 10 lat doświadczenia",
         "text5": "Sprężyny dostępne od ręki",
         "text6": "Nasze zamówienia realizujemy zgodnie z terminem"
+    },
+    "catalog": {
+        "title": "Potrzebujesz sprężyn na specjalne zamówienie?",
+        "text1": "Zapoznaj się z naszą szeroką gamą produktów. Kliknij przycisk i pobierz katalog zawierający wszystkie produkty.",
+        "text2": "Pobierz plik "
     }
 }

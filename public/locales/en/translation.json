@@ -20,6 +20,16 @@
         "text": "NOBI-STAL specializes in the production of technical springs both in large quantities and in single orders.In the case of special springs, Nobi-Stal has the ability to produce to the customer's special order.",
         "industry3": "Górnictwo"
     },
+    "subpage.productsInformation": {
+        "title": "NOBI-STAL",
+        "text1": "Nobi-stal is one of the largest suppliers of technical springs available from stock. With a wide range of high quality products we deliver springs quickly and at a favorable price. The long tradition and international character of the company makes, that Nobi-Stal solutions meet the requirements of both European standards, UIC, Russian GOST, as well as Chinese TB/T. Innovation, competence technological and design competence, several decades of experience and the desire to to follow the ever-increasing requirements of customers constitute the quality of the products and solutions offered.",
+        "text2": "We are constantly expanding our product offerings becoming an even better partner for our customers.",
+        "list1": "Fast delivery of Catalogs of springs and standard parts",
+        "list2": "Delivery of prototypes",
+        "list3": "Graduated prices for standard springs",
+        "list4": "Highest quality",
+        "list5": "Guaranteed quality delivery according DIN / NEN / ISO0"
+    },
     "carousel.products": {
         "title": "Our products",
         "text": "We have a lot of experience in production, and we offer the possibility of making springs on special order."
@@ -38,5 +48,10 @@
         "text4": "More than 10 years of experience",
         "text5": "Springs available from stock",
         "text6": "We fulfill our orders according to the deadline"
+    },
+    "catalog": {
+        "title": "Do you need special order springs?",
+        "text1": "Explore our wide range of products. Click the button and download the catalog containing all products.",
+        "text2": "Download file"
     }
 }
