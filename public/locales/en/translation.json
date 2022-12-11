@@ -53,5 +53,21 @@
         "title": "Do you need special order springs?",
         "text1": "Explore our wide range of products. Click the button and download the catalog containing all products.",
         "text2": "Download file"
+    },
+    "contact": {
+        "title": "Contact",
+        "title2": "Contact details",
+        "name": "COMPANY NAME:",
+        "address": "ADDRESS:",
+        "data": "Company details"
+    },
+    "form": {
+        "title": "Contact us",
+        "error": "Failed to send a message!",
+        "success1": "The message has been sent!",
+        "success2": "We will get in touch soon.",
+        "send": "Send",
+        "name": "Name",
+        "text": "Type your message"
     }
 }

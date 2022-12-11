@@ -53,5 +53,19 @@
         "title": "Potrzebujesz sprężyn na specjalne zamówienie?",
         "text1": "Zapoznaj się z naszą szeroką gamą produktów. Kliknij przycisk i pobierz katalog zawierający wszystkie produkty.",
         "text2": "Pobierz plik "
+    },
+    "contact": {
+        "title": "Kontakt",
+        "title2": "Dane kontaktowe",
+        "name": "NAZWA FIRMY:",
+        "address": "ADRES:",
+        "data": "Dane firmy"
+    },
+    "form": {
+        "title": "Skontaktuj się z nami",
+        "error": "Nie udało się wysłać wiadomości!",
+        "success1": "Wiadomość została wysłana!",
+        "success2": "Wkrótce się skontaktujemy.",
+        "send": "Wyślij"
     }
 }

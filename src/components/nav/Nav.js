@@ -5,7 +5,8 @@ import { useState } from "react";
 
 import { useTranslation} from 'react-i18next';
 
-
+import anglia from '../../assets/flaga_w_brytanii.jpeg';
+import polska from '../../assets/flaga_polska.jpg';
 import HamburgerMenu from "./HamburgerMenu";
 import './_nav.scss';
 
@@ -65,14 +66,12 @@ function Nav() {
                             <Link to='/kontakt'>{t('nav.4')}</Link>
                         </li>
                     </ul>
-             
                     <div className="language">
-              
-                        <button onClick={() => handleClick('en')}>
-                            English
-                        </button>
                         <button onClick={() => handleClick('pl')}>
-                            Polish
+                            <img src={polska} alt="język polski" className="flag"/>
+                        </button>
+                        <button onClick={() => handleClick('en')}>
+                            <img src={anglia} alt="język angielski" className="flag" />
                         </button>
                     </div>
                 </div>

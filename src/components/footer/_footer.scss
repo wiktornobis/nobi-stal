@@ -9,9 +9,7 @@
   box-shadow: 0px -2px 7px 0px rgba(0,0,0,0.15);
   z-index: 20;
   margin-top: $spacing-xxl;
-  background-color: $color-white;
-  // position: absolute;
-  // bottom: 0;
+  background: rgb(246, 246, 246);
   &::before {
     content: '';
     background: url('../../assets/nobistal.png');
@@ -21,11 +19,9 @@
     height: 45px;
     cursor: pointer;
 }
-
   &_logo {
     width: 50%;
     padding-left: $spacing-sm;
-   
   }
 
   &_text {

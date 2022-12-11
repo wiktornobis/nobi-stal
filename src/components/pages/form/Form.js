@@ -9,8 +9,9 @@ import Axios from 'axios';
 
 import './_form.scss';
 
-
+import { useTranslation} from 'react-i18next';
 function Formularz() {
+    const { t } = useTranslation();
     const [modal, setModal] = useState(false);
     const [errorModal, setErrorModal] = useState(false);
 
@@ -31,7 +32,7 @@ function Formularz() {
         <div id='kontakt' className="contact_form_form">        
             <div className="contact_form_right">
                 <img src={logo} alt="logo firmy" className='logo'/>
-                <h3 className="contact_form_right_title">Skontaktuj się z nami</h3>
+                <h3 className="contact_form_right_title">{t('form.title')}</h3>
                 <Formik
                     initialValues={{
                         name: '',
@@ -72,13 +73,13 @@ function Formularz() {
                     {({ values, isSubmitting }) => (
                         <div className='contact_form_right_form'>
                             <Form>
-                                 {errorModal && <p className='error-send'>Nie udało się wysłać wiadomości!</p>}
-                                 {modal && <p className='success-send'>Wiadomość została wysłana!</p>}
-                                 {modal && <p className='success-send'>Wkrótce się skontaktujemy.</p>}
+                                 {errorModal && <p className='error-send'>{t('form.error')}</p>}
+                                 {modal && <p className='success-send'>{t('form.success1')}</p>}
+                                 {modal && <p className='success-send'>{t('form.success2')}</p>}
 
                                 <div className="contact_form_right_form_first">
                                     <div className="contact_form_right_form_first-name">
-                                        <TextField label="Wpisz swoje imię" 
+                                        <TextField label={t('form.name')}
                                                    name="name" 
                                                    id="name"
                                                    type="text" 
@@ -99,7 +100,7 @@ function Formularz() {
                                 <div className="contact_form_right_form_first-text">
                                     <Field 
                                         className="contact_form_right_form_first-text-area" 
-                                        label="Wpisz swoją wiadomość" 
+                                        label={t('form.text')}
                                         name="message"
                                         id="message" 
                                         type="message" 
@@ -111,7 +112,7 @@ function Formularz() {
                                 </div>
                                 <div className="contact_form_right_form_first-btn">
                                     <Button className='catalog_btn' variant="outlined" size="small" type='submit'>
-                                        Wyślij
+                                        {t('form.send')}
                                     </Button>
                                 </div>
                             </Form>
