@@ -3,8 +3,10 @@ import arrow from '../../../assets/arrow.png';
 import springWave from '../../../assets/sprezyny-faliste.png';
 import { Outlet} from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import { useTranslation} from 'react-i18next';
 
 function SpringWave(props) {
+    const { t } = useTranslation();
     return (
         <>
         <div className="springs-background">
@@ -13,7 +15,7 @@ function SpringWave(props) {
                     <HashLink to='/produkty#produkty'
                        scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}
                     >
-                        <h2 className="spring-nav-back">Produkty</h2>
+                        <h2 className="spring-nav-back">{t('subProduct.title')}</h2>
                     </HashLink>
                     <img className='spring-nav-img'
                         src={arrow}
@@ -24,7 +26,7 @@ function SpringWave(props) {
                 <div className="spring-compression">
                     <div className="left-container">
                         <h2 className="spring-title">Sprężyny faliste</h2>
-                        <h3 className="spring-subtitle">Sprężyny</h3>
+                        <h3 className="spring-subtitle">{t('subProduct.subtitle')}</h3>
                         <p className="spring-text">
                             Sprężyny naciskowe można zamówić po uprzednim złożeniu zamówienia. Dzięki najszerszemu
                             asortymentowi sprężyn naciskowych w różnych rozmiarach, Nobi-Stal zapewnia pełne wsparcie.

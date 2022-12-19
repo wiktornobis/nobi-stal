@@ -3,7 +3,9 @@
         "1": "Main Page",
         "2": "Products",
         "3": "Form",
-        "4": "Contact"        
+        "4": "Contact",
+        "title1": "Highest quality",
+        "title2": "2-year warranty"   
     },
     "about": {
         "title": "About Us",
@@ -32,7 +34,13 @@
     },
     "carousel.products": {
         "title": "Our products",
-        "text": "We have a lot of experience in production, and we offer the possibility of making springs on special order."
+        "text": "We have a lot of experience in production, and we offer the possibility of making springs on special order.",
+        "item1": "Compression springs",
+        "title1": "Technical Springs",
+        "item2": "Wire Bending Forms",
+        "item3": "Pressure springs",
+        "item4": "Corrugated springs",
+        "item5": "Disc springs"
     },
     "doradztwo": {
         "title": "Do you need advice?",
@@ -69,5 +77,12 @@
         "send": "Send",
         "name": "Name",
         "text": "Type your message"
+    },
+    "subProduct": {
+        "title": "Products",
+        "subtitle": "Springs",
+        "WireBentTitle": "Wire Bent Forms",
+        "WireBentText": "Compression springs can be ordered after placing an order. With the widest range of compression springs in various sizes, Nobi-Stal provides full support. All compression springs are ground from 1.0 mm and manufactured in accordance with DIN 2089-1 (EN 13906-1) and DIN 2095-2.",
+        "readMore": "Read more"
     }
 }

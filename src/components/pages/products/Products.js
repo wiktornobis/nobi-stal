@@ -30,7 +30,7 @@ function Products({products}) {
                                     src={products.img}
                                     alt={products.title}
                                 />
-                                <h3 className='items_container_text'>{t(products.title)}</h3>
+                                <h3 className='items_container_text'>{t(`${products.title}`)}</h3>
                                 <p className='items_container_title'>{products.text}</p>
                             </div>
                         </Link>

@@ -100,46 +100,46 @@ function ProductsCarousel() {
                
                 <div className="product" data-aos="fade-up">
                     <Link to='produkty/2'>
-                        <img className="defer-image is-loaded image-ratio:61 applied-default" src={naciagowe} alt="sprężyny naciągowe" />
+                        <img className="defer-image is-loaded image-ratio:61 applied-default" src={naciagowe} alt={t('carousel.products.item1')} />
                     </Link>
-                    <h3 className='items_text'>Spręyny ściskowe</h3>
-                    <p className='items_title'>Spręyny techniczne</p>
+                    <h3 className='items_text'>{t('carousel.products.item1')}</h3>
+                    <p className='items_title'>{t('carousel.products.title1')}</p>
                 </div>
              
             
                 <div className="product" data-aos="fade-up">
                     <Link to='produkty/6'>
-                        <img className="defer-image is-loaded image-ratio:61 applied-default" src={formy} alt="formy gięte z drutu" />
+                        <img className="defer-image is-loaded image-ratio:61 applied-default" src={formy} alt={t('carousel.products.item2')}/>
                     </Link>
-                    <h3 className='items_text'>Formy giętę z drutu</h3>
-                    <p className='items_title'>Spręyny techniczne</p>
+                    <h3 className='items_text'>{t('carousel.products.item2')}</h3>
+                    <p className='items_title'>{t('carousel.products.title1')}</p>
                 </div>
             
             
                 <div className="product" data-aos="fade-up">
                     <Link to='produkty/1'>
-                        <img className="defer-image is-loaded image-ratio:61 applied-default" src={sciskowe} alt="sprężyny naciskowe" />
+                        <img className="defer-image is-loaded image-ratio:61 applied-default" src={sciskowe} alt={t('carousel.products.item3')} />
                     </Link>
-                    <h3 className='items_text'>Spręyny naciskowe</h3>
-                    <p className='items_title'>Spręyny techniczne</p>
+                    <h3 className='items_text'>{t('carousel.products.item3')}</h3>
+                    <p className='items_title'>{t('carousel.products.title1')}</p>
                 </div>
             
                 
                 <div className="product" data-aos="fade-up">
                     <Link to='produkty/5'>
-                        <img className="defer-image is-loaded image-ratio:61 applied-default" src={faliste} alt="sprężyny faliste" />
+                        <img className="defer-image is-loaded image-ratio:61 applied-default" src={faliste} alt={t('carousel.products.item4')} />
                     </Link>
-                    <h3 className='items_text'>Spręyny faliste</h3>
-                    <p className='items_title'>Spręyny techniczne</p>
+                    <h3 className='items_text'>{t('carousel.products.item4')}</h3>
+                    <p className='items_title'>{t('carousel.products.title1')}</p>
                 </div>
         
     
                 <div className="product" data-aos="fade-up">
                     <Link to='produkty/4'>
-                        <img className="defer-image is-loaded image-ratio:61 applied-default" src={talerzowe} alt="sprężyny talerzowe" />
+                        <img className="defer-image is-loaded image-ratio:61 applied-default" src={talerzowe} alt={t('carousel.products.item5')} />
                     </Link>
-                    <h3 className='items_text'>Spręyny talerzowe</h3>
-                    <p className='items_title'>Spręyny techniczne</p>
+                    <h3 className='items_text'>{t('carousel.products.item5')}</h3>
+                    <p className='items_title'>{t('carousel.products.title1')}</p>
                 </div> 
 
             </Slider>

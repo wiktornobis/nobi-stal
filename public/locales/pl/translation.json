@@ -3,7 +3,9 @@
         "1": "Strona Główna",
         "2": "Produkty",
         "3": "Formularz",
-        "4": "Kontakt"        
+        "4": "Kontakt",
+        "title1": "Najwysza jakość",
+        "title2": "2-letnia gwarancja"
     },
     "about": {
         "title": "O nas",
@@ -32,7 +34,13 @@
     },
     "carousel.products": {
         "title": "Nasze produkty",
-        "text": "Posiadamy duże doświadczenie w produkcji, oferujemy możliwość wykonaniasprężyn na specjalne zamówienie."
+        "text": "Posiadamy duże doświadczenie w produkcji, oferujemy możliwość wykonaniasprężyn na specjalne zamówienie.",
+        "item1": "Sprężyny ściskowe",
+        "title1": "Sprężyny techniczne",
+        "item2": "Formy giętę z drutu",
+        "item3": "Sprężyny naciskowe",
+        "item4": "Sprężyny faliste",
+        "item5": "Sprężyny talerzowe"
     },
     "doradztwo": {
         "title": "Potrzebujesz doradztwa?",
@@ -66,6 +74,15 @@
         "error": "Nie udało się wysłać wiadomości!",
         "success1": "Wiadomość została wysłana!",
         "success2": "Wkrótce się skontaktujemy.",
-        "send": "Wyślij"
+        "send": "Wyślij",
+        "name": "Wpisz swoje imię",
+        "text": "Wpisz swoją wiadomość"
+    },
+     "subProduct": {
+        "title": "Produkty",
+        "subtitle": "Sprężyny",
+        "WireBentTitle": "Formy gięte z drutu",
+        "WireBentText": "Sprężyny naciskowe można zamówić po uprzednim złożeniu zamówienia. Dzięki najszerszemu asortymentowi sprężyn naciskowych w różnych rozmiarach, Nobi-Stal zapewnia pełne wsparcie. Wszystkie sprężyny naciskowe są szlifowane od 1,0 mm i produkowane zgodnie z normami DIN 2089-1 (EN 13906-1) i DIN 2095-2.",
+        "readMore": "Czytaj więcej"
     }
 }

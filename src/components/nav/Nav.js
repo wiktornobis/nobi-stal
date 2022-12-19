@@ -16,6 +16,7 @@ function Nav() {
 
     function handleClick(lang) {
         i18n.changeLanguage(lang);
+        localStorage.setItem('lang', lang);
     }
     
     return (
@@ -25,9 +26,9 @@ function Nav() {
                     <div className="first_container">
                         <div className="first_container_text">
                             <FontAwesomeIcon icon={faCheckCircle} className="first_container_icon" />
-                             Najwysza jakość  
+                                {t('nav.title1')}
                              <FontAwesomeIcon className="first_container_icon" icon={faUserShield} />
-                             2-letnia gwarancja
+                                {t('nav.title2')}
                         </div>
                     </div>
                 </div>

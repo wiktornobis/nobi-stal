@@ -3,15 +3,17 @@ import arrow from '../../../assets/arrow.png';
 import springStretching from '../../../assets/sprezyny-naciagowe.png';
 import { Outlet, Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import { useTranslation} from 'react-i18next';
 
 function SpringStretching(props) {
+    const { t } = useTranslation();
     return (
         <>
             <div className="springs-background">
                 <div className="sub-product general-container">
                     <div className="spring-nav ">
                         <Link to='/produkty'>
-                            <h2 className="spring-nav-back">Produkty</h2>
+                            <h2 className="spring-nav-back">{t('subProduct.title')}</h2>
                         </Link>
                         <img className='spring-nav-img'
                             src={arrow}
@@ -22,7 +24,7 @@ function SpringStretching(props) {
                     <div className="spring-compression">
                         <div className="left-container">
                             <h2 className="spring-title">Sprężyny naciągowe</h2>
-                            <h3 className="spring-subtitle">Sprężyny</h3>
+                            <h3 className="spring-subtitle">{t('subProduct.subtitle')}</h3>
                             <p className="spring-text">
                                 Sprężyny naciskowe można zamówić po uprzednim złożeniu zamówienia. Dzięki najszerszemu
                                 asortymentowi sprężyn naciskowych w różnych rozmiarach, Nobi-Stal zapewnia pełne wsparcie.
