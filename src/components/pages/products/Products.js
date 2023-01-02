@@ -2,9 +2,10 @@ import './_products.scss';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import {  Link } from "react-router-dom";
+
 
 import { useTranslation} from 'react-i18next';
+import DataProducts from './DataProducts';
 
 function Products({products}) {
     const { t } = useTranslation();
@@ -20,21 +21,9 @@ function Products({products}) {
                 </div>
             </div>
             <div className="products_main_products general-container">
-                <h3 id='produkty' className="products_main_products_title" data-aos="fade-up">Produkty</h3>
+                <h3 id='produkty' className="products_main_products_title" data-aos="fade-up">{t('subpage.productsInformation.product')}</h3>
                 <div className="items" data-aos="fade-up">
-                    {products.map((products, index) => (
-                        <Link to={`/produkty/${products.id}`}>
-                            <div key={index} className='items_container'>  
-                                <img
-                                    className='items_container_img'
-                                    src={products.img}
-                                    alt={products.title}
-                                />
-                                <h3 className='items_container_text'>{t(`${products.title}`)}</h3>
-                                <p className='items_container_title'>{products.text}</p>
-                            </div>
-                        </Link>
-                    ))}
+                   <DataProducts />
                 </div>
                 <div className="information">
                     <h2 className="information_title" data-aos="fade-up">{t('subpage.productsInformation.title')} </h2>

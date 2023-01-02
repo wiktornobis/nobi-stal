@@ -3,6 +3,7 @@
 
 .contact {
   display: flex;
+  height: 100vh;
   @include mobile {
     display: flex;
     flex-direction: column;

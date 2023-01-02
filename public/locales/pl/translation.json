@@ -23,6 +23,15 @@
         "industry3": "Górnictwo"
     },
     "subpage.productsInformation": {
+        "product": "Produkty",
+        "productOneTitle": "Sprężyny ściskowe",
+        "productTwoTitle": "Sprężyny naciągowe",
+        "productThreeTitle": "Sprężyny skrętne",
+        "productFourTitle": "Sprężyny talerzowe",
+        "productFiveTitle": "Sprężyny faliste",
+        "productSixTitle": "Formy gięte z drutu",
+        "productSubtitle": "Sprężyny techniczne",
+        "productSubtitleTwo": "Wytworzone na zamówienie",
         "title": "NOBI-STAL",
         "text1": "Nobi-stal jest jednym z największych dostawców sprężyn technicznych dostępnych z magazynu. Dzięki szerokiej gamie produktów wysokiej jakości dostarczamy sprężyny szybko i po korzystnej cenie. Wieloletnia tradycja i międzynarodowy charakter firmy sprawia, że rozwiązania Nobi-Stal spełniają wymogi zarówno norm europejskich, UIC, rosyjskich GOST, jak i chińskich TB/T. Innowacyjność, kompetencje technologiczne i konstrukcyjne, kilkadziesiąt lat doświadczenia i chęć podążania za stale rosnącymi wymaganiami Klientów stanowią o jakości oferowanych produktów i rozwiązań.",
         "text2": "Ciągle poszerzamy naszą ofertę produktową stając się jeszcze lepszym partnerem dla naszych Klientów.",
@@ -60,7 +69,7 @@
     "catalog": {
         "title": "Potrzebujesz sprężyn na specjalne zamówienie?",
         "text1": "Zapoznaj się z naszą szeroką gamą produktów. Kliknij przycisk i pobierz katalog zawierający wszystkie produkty.",
-        "text2": "Pobierz plik "
+        "text2": "Pobierz katalog"
     },
     "contact": {
         "title": "Kontakt",

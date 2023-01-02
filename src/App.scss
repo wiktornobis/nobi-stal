@@ -18,6 +18,9 @@
   // color: $color-white;
   font-size: $size-base-font;
 }
+#root {
+  height: 100vh
+}
 
 @function strip-unit($value) {
   @return $value / ($value * 0 + 1);
