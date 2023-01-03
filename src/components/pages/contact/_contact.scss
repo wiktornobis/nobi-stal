@@ -14,6 +14,11 @@
     padding-bottom: 40px;
     background: whitesmoke;
     margin-bottom: 120px;
+    @include desktop {
+      padding-top: 60px;
+      margin-bottom: 140px;
+      padding-bottom: 0;
+    }
     @include mobile {
       order: 2;
       width: 90%;
@@ -35,6 +40,9 @@
     height: 700px;
     right: 0;
     top: 2px;
+    @include desktop {
+      height: 500px;
+    }
     @include mobile {
       order: 1;
       width: 100%;

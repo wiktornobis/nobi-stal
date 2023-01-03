@@ -188,3 +188,55 @@ li {
     font-size: 13px !important;
   }
 }
+
+.CookieConsent {
+  max-width: 420px;
+  height: auto;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+  padding: 30px 20px;
+  border-radius: 3px;
+  left: 0% !important;
+  right: 0% !important;
+  bottom: 20% !important;
+  margin: 0 auto;
+  text-align: justify;
+  background: rgb(226, 226, 226); 
+  @include mobile {
+    max-width: 90%;
+  }
+  button {
+    text-transform: uppercase;
+    background: rgb(16, 16, 16) !important;
+    border-radius: 6px !important;
+    @include mobile {
+      font-size: 12px !important;
+    }
+  }
+  span {
+    @include mobile {
+      font-size: 13px !important;
+    }
+  }
+  div {
+    &:first-of-type {
+      flex: 1 0 320px !important;
+      @include mobile {
+        flex: 1 0 300px !important;
+      }
+    }
+  }
+  .logo {
+    width: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    @include mobile {
+      width: 130px;
+    }
+  }
+}

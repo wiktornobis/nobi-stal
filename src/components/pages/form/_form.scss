@@ -19,18 +19,29 @@
         background-color: $color-column;
         padding: 60px 20px 20px 20px;
         border-radius: 5px;
+        @include desktop {
+            padding: 40px 20px 20px 20px;
+            height: 550px;
+        }
         @include mobile {
             width: 90%;
-            height: 90%;
+            height: 500px;
             padding: 40px 20px 20px 20px; 
         }
         .logo {
             width: 40%;
             margin-bottom: 30px;
+            @include desktop {
+                margin-bottom: 15px;
+                width: 35%;
+            }
         }       
         &_title {
             font-size: 38px;
             padding-top: 30px;
+            @include desktop {
+                padding-top: 20px;
+            }
             @include mobile {
                 padding: 0;
             }
@@ -39,6 +50,9 @@
         &_form {
             width: 100%;
             margin-top: 80px;
+            @include desktop {
+                margin-top: 40px;
+            }
             @include mobile {
                 margin-top: 30px;
             }

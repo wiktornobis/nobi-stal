@@ -16,7 +16,7 @@ import SpringDiscs from "./components/pages/subproducts/SpringDiscs";
 import SpringWave from "./components/pages/subproducts/SpringWave";
 import WireBentMolds from "./components/pages/subproducts/ WireBentMolds";
 import ScrollToTop from "./ScrollToTop";
-
+import Cookie from "./Cookie";
 
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
 
   return (
     <Router>
+        <Cookie />
         <Nav />
         <ScrollToTop />
         <Routes>
