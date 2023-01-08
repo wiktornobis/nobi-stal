@@ -3,11 +3,11 @@ import './_hamburgerMenu.scss';
 import {Link} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars, faXmark} from "@fortawesome/free-solid-svg-icons";
-import { SidebarData } from "./SidebarData";
 import { useTranslation} from 'react-i18next';
 
 import anglia from '../../assets/flaga_w_brytanii.jpeg';
 import polska from '../../assets/flaga_polska.jpg';
+import HamburgerMenuLink from './HamburgerMenuLink';
 
 function HamburgerMenu() {
     const { i18n } = useTranslation();
@@ -41,16 +41,7 @@ function HamburgerMenu() {
                             <FontAwesomeIcon icon={faXmark} />
                         </Link>
                     </li>
-                    {SidebarData.map((item, index) => {
-                        return (
-                            <li key={index} className={item.cName}>
-                                <Link to={item.path}>
-                                    {item.icon}
-                                    <span>{item.title}</span>
-                                </Link>
-                            </li>
-                        )
-                    })}
+                    <HamburgerMenuLink />
                 </ul>
             </nav>
         </>
