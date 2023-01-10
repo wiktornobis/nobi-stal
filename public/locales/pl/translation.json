@@ -1,0 +1,97 @@
+{
+    "nav": {
+        "1": "Strona Główna",
+        "2": "Produkty",
+        "3": "Formularz",
+        "4": "Kontakt",
+        "title1": "Najwysza jakość",
+        "title2": "2-letnia gwarancja"
+    },
+    "about": {
+        "title": "O nas",
+        "text": "Firma Nobi-Stal jest ekspertem w dziedzinie produkcji sprężyn i sit. Klientami Nobi-Stal są firmy z całego świata, którzy wykorzystują nasze produkty w branży górniczej, rolniczej, budowlanej, energetycznej. Nasze sprężyny charakteryzują się bardzo dobrymi własnościami wytrzymałościowymi gdyż wykorzystują zaawansowaną technologię produkcyjną. Branże takie jak: rolnicza, górnicza, budowlana, energetyczna wymagają podzespołów, które sprostają trudnym warunkom i zapewnią długą żywotność maszyn. Nasze sprężyny stosowane są m.in.: traktorach, kombajnach, pługach. Na specjalne zamówienie oferujemy sprężyny wykorzystywane w maszynach do spulchniania gleby.",
+        "sectors": "Zastosowanie naszych produktów"
+    },
+    "sectors": {
+        "industry1": "Budownictwo",
+        "industry2": "Rolnictwo",
+        "industry3": "Górnictwo"
+    },
+    "subpage.products": {
+        "title": "Wszystkie produkty firmy Nobi-Stal są dostępne po uprzednim zamówieniu.",
+        "text": " NOBI-STAL specjalizuje się w produkcji sprężyn technicznych zarówno w dużych ilościach jak i w pojedynczych zamówieniach.W przypadku sprężyn specjalnych Nobi-Stal ma możliwość produkcji na specjalne zamówienie klienta.",
+        "industry3": "Górnictwo"
+    },
+    "subpage.productsInformation": {
+        "product": "Produkty",
+        "productOneTitle": "Sprężyny ściskowe",
+        "productTwoTitle": "Sprężyny naciągowe",
+        "productThreeTitle": "Sprężyny skrętne",
+        "productFourTitle": "Sprężyny talerzowe",
+        "productFiveTitle": "Sprężyny faliste",
+        "productSixTitle": "Formy gięte z drutu",
+        "productSubtitle": "Sprężyny techniczne",
+        "productSubtitleTwo": "Wytworzone na zamówienie",
+        "title": "NOBI-STAL",
+        "text1": "Nobi-stal jest jednym z największych dostawców sprężyn technicznych dostępnych z magazynu. Dzięki szerokiej gamie produktów wysokiej jakości dostarczamy sprężyny szybko i po korzystnej cenie. Wieloletnia tradycja i międzynarodowy charakter firmy sprawia, że rozwiązania Nobi-Stal spełniają wymogi zarówno norm europejskich, UIC, rosyjskich GOST, jak i chińskich TB/T. Innowacyjność, kompetencje technologiczne i konstrukcyjne, kilkadziesiąt lat doświadczenia i chęć podążania za stale rosnącymi wymaganiami Klientów stanowią o jakości oferowanych produktów i rozwiązań.",
+        "text2": "Ciągle poszerzamy naszą ofertę produktową stając się jeszcze lepszym partnerem dla naszych Klientów.",
+        "list1": "Szybka dostawa Katalog sprężyn i standardowych części",
+        "list2": "Dostawa prototypów",
+        "list3": "Stopniowe ceny sprężyn standardowych",
+        "list4": "Najwyższa jakość",
+        "list5": "Guaranteed quality delivery according DIN / NEN / ISO0"
+    },
+    "carousel.products": {
+        "title": "Nasze produkty",
+        "text": "Posiadamy duże doświadczenie w produkcji, oferujemy możliwość wykonaniasprężyn na specjalne zamówienie.",
+        "item1": "Sprężyny ściskowe",
+        "title1": "Sprężyny techniczne",
+        "item2": "Formy giętę z drutu",
+        "item3": "Sprężyny naciskowe",
+        "item4": "Sprężyny faliste",
+        "item5": "Sprężyny talerzowe"
+    },
+    "doradztwo": {
+        "title": "Potrzebujesz doradztwa?",
+        "text": "wypełnij formularz",
+        "secondTitle": "Produkcja sprężyn oraz sit",
+        "secondText": "Nobi-Stal posiada ogromne doświadczenie i oferuje jedne z największych na rynku możliwości produkcji sprężyn technicznych, sit preferowanych, tkanych, plecionych oraz cięto ciągnionych"
+    },
+    "achievement": {
+        "title": "Dlaczego NOBI-STAL to najlepszy wybór?",
+        "text1": "Zaufana marka",
+        "text2": "Kontrola zapasów",
+        "text3": "Terminowość",
+        "text4": "Ponad 10 lat doświadczenia",
+        "text5": "Sprężyny dostępne od ręki",
+        "text6": "Nasze zamówienia realizujemy zgodnie z terminem"
+    },
+    "catalog": {
+        "title": "Potrzebujesz sprężyn na specjalne zamówienie?",
+        "text1": "Zapoznaj się z naszą szeroką gamą produktów. Kliknij przycisk i pobierz katalog zawierający wszystkie produkty.",
+        "text2": "Pobierz katalog"
+    },
+    "contact": {
+        "title": "Kontakt",
+        "title2": "Dane kontaktowe",
+        "name": "NAZWA FIRMY:",
+        "address": "ADRES:",
+        "data": "Dane firmy"
+    },
+    "form": {
+        "title": "Skontaktuj się z nami",
+        "error": "Nie udało się wysłać wiadomości!",
+        "success1": "Wiadomość została wysłana!",
+        "success2": "Wkrótce się skontaktujemy.",
+        "send": "Wyślij",
+        "name": "Wpisz swoje imię",
+        "text": "Wpisz swoją wiadomość"
+    },
+     "subProduct": {
+        "title": "Produkty",
+        "subtitle": "Sprężyny",
+        "WireBentTitle": "Formy gięte z drutu",
+        "WireBentText": "Sprężyny naciskowe można zamówić po uprzednim złożeniu zamówienia. Dzięki najszerszemu asortymentowi sprężyn naciskowych w różnych rozmiarach, Nobi-Stal zapewnia pełne wsparcie. Wszystkie sprężyny naciskowe są szlifowane od 1,0 mm i produkowane zgodnie z normami DIN 2089-1 (EN 13906-1) i DIN 2095-2.",
+        "readMore": "Czytaj więcej"
+    }
+}

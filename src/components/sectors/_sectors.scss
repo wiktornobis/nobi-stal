@@ -20,3 +20,19 @@
         }
     }
 }
+
+@include mobile {
+    .sectors {
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        &_article {
+            .defer-image {
+                border-radius: 0;
+            }
+            &_title {
+                border-radius: 0;
+            }
+        }
+    }
+}

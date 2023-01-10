@@ -1,0 +1,97 @@
+{
+    "nav": {
+        "1": "Main Page",
+        "2": "Products",
+        "3": "Form",
+        "4": "Contact",
+        "title1": "Highest quality",
+        "title2": "2-year warranty"   
+    },
+    "about": {
+        "title": "About Us",
+        "text": "Nobi-Stal is an expert in the production of springs and screens. Nobi-Stal's customers are companies from all over the world who use our products in the mining, agricultural, construction, energy industries. Our springs are characterized by very good strength properties because they use advanced production technology. Industries such as agriculture, mining, construction, energy require components that will stand up to harsh conditions and ensure long service life of machinery. Our springs are used, among others: tractors, harvesters, plows. On special order we offer springs used in soil loosening machines.",
+        "sectors": "The use of our products"
+    },
+    "sectors": {
+        "industry1": "Construction",
+        "industry2": "Agriculture",
+        "industry3": "Mining"
+    },
+    "subpage.products": {
+        "title": "All Nobi-Stal products are available upon ordering.",
+        "text": "NOBI-STAL specializes in the production of technical springs both in large quantities and in single orders.In the case of special springs, Nobi-Stal has the ability to produce to the customer's special order.",
+        "industry3": "Górnictwo"
+    },
+    "subpage.productsInformation": {
+        "product": "Products",
+        "productOneTitle": "Compression springs",
+        "productTwoTitle": "Tension springs",
+        "productThreeTitle": "Torsion springs",
+        "productFourTitle": "Disc springs",
+        "productFiveTitle": "Wave springs",
+        "productSixTitle": "Wire bent forms",
+        "productSubtitle": "Technical springs",
+        "productSubtitleTwo": "Made to order",
+        "title": "NOBI-STAL",
+        "text1": "Nobi-stal is one of the largest suppliers of technical springs available from stock. With a wide range of high quality products we deliver springs quickly and at a favorable price. The long tradition and international character of the company makes, that Nobi-Stal solutions meet the requirements of both European standards, UIC, Russian GOST, as well as Chinese TB/T. Innovation, competence technological and design competence, several decades of experience and the desire to to follow the ever-increasing requirements of customers constitute the quality of the products and solutions offered.",
+        "text2": "We are constantly expanding our product offerings becoming an even better partner for our customers.",
+        "list1": "Fast delivery of Catalogs of springs and standard parts",
+        "list2": "Delivery of prototypes",
+        "list3": "Graduated prices for standard springs",
+        "list4": "Highest quality",
+        "list5": "Guaranteed quality delivery according DIN / NEN / ISO0"
+    },
+    "carousel.products": {
+        "title": "Our products",
+        "text": "We have a lot of experience in production, and we offer the possibility of making springs on special order.",
+        "item1": "Compression springs",
+        "title1": "Technical Springs",
+        "item2": "Wire Bending Forms",
+        "item3": "Pressure springs",
+        "item4": "Corrugated springs",
+        "item5": "Disc springs"
+    },
+    "doradztwo": {
+        "title": "Do you need advice?",
+        "text": "fill in the form",
+        "secondTitle": "Manufacturing of springs and screens",
+        "secondText": "Nobi-Stal has huge experience and offers one of the largest capacities in the market for the production of technical springs, preferred, woven, braided and expanded metal screens"
+    },
+    "achievement": {
+        "title": "Why is NOBI-STAL the best choice?",
+        "text1": "Trusted brand",
+        "text2": "Inventory Control",
+        "text3": "Timeliness",
+        "text4": "More than 10 years of experience",
+        "text5": "Springs available from stock",
+        "text6": "We fulfill our orders according to the deadline"
+    },
+    "catalog": {
+        "title": "Do you need special order springs?",
+        "text1": "Explore our wide range of products. Click the button and download the catalog containing all products.",
+        "text2": "Download the catalog"
+    },
+    "contact": {
+        "title": "Contact",
+        "title2": "Contact details",
+        "name": "COMPANY NAME:",
+        "address": "ADDRESS:",
+        "data": "Company details"
+    },
+    "form": {
+        "title": "Contact us",
+        "error": "Failed to send a message!",
+        "success1": "The message has been sent!",
+        "success2": "We will get in touch soon.",
+        "send": "Send",
+        "name": "Name",
+        "text": "Type your message"
+    },
+    "subProduct": {
+        "title": "Products",
+        "subtitle": "Springs",
+        "WireBentTitle": "Wire Bent Forms",
+        "WireBentText": "Compression springs can be ordered after placing an order. With the widest range of compression springs in various sizes, Nobi-Stal provides full support. All compression springs are ground from 1.0 mm and manufactured in accordance with DIN 2089-1 (EN 13906-1) and DIN 2095-2.",
+        "readMore": "Read more"
+    }
+}

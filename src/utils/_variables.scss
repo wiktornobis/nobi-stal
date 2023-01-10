@@ -3,6 +3,7 @@ $color-primary: #00529a;
 $color-green-light: #006e8c;
 $color-column: #e8e8e8;
 $color-text: #4c4c4c;
+$color-text-dark: #2a2a2a;
 
 $size-base-font: 18px;
 
@@ -26,14 +27,14 @@ $spacing-xxl: 150px;
     margin-right: $spacing-xl;
     @media only screen and (min-width: $desktop-width) and (max-width: 1920px){
         & {
-            margin-left: $spacing-xl;
-            margin-right: $spacing-xl;
+            margin-left: $spacing-xxl;
+            margin-right: $spacing-xxl;
         }
     }
     @media only screen and (max-width: 1300px) {
         & {
-            margin-left: $spacing-xl;
-            margin-right: $spacing-xl;
+            margin-left: $spacing-xxl;
+            margin-right: $spacing-xxl;
         }
     }
     @media only screen and (max-width: 1100px) {
@@ -42,12 +43,12 @@ $spacing-xxl: 150px;
             margin-right: $spacing-lg;
         }
     }
-    @media only screen and (max-width: $mobile-width) {
+    @media only screen and (max-width: 767px) {
         & {
-            margin-left: 0;
-            margin-right: 0;
-            width: 100%;
-            margin: 0 $spacing-sm;
+            margin-left: $spacing-sm;
+            margin-right: $spacing-sm;
+            // width: 100%;
+            // margin: 0 $spacing-sm;
         }
     }
 }

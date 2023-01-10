@@ -13,6 +13,13 @@
             color: $color-text;
             margin-left: $spacing-xxl;
             border-bottom: 1px solid black;
+            @include tablet {
+                margin-left: $spacing-xl;
+            }
+            @include mobile {
+                margin-left: $spacing-sm;
+                font-size: 10px !important;
+            }
             &:hover {
                border-bottom: 2px solid black;
                font-weight: 500;
@@ -27,23 +34,31 @@
         
     }
     &_second_container {
-        margin-top: $spacing-xxl;
         margin: $spacing-xl $spacing-md;
         background-color: $color-primary;
         padding: 0 $spacing-md;
         color: $color-white;
         position: relative;
+        @include mobile {
+            margin: $spacing-lg 13px;
+            padding: 0 $spacing-sm;
+        }
         &_title {
-            padding-top: $spacing-md;
+            padding-top: $spacing-sm;
             padding-bottom: $spacing-lg;
             color: $color-white;
+            @include mobile {
+                padding-bottom: $spacing-sm;
+            }
         }
         &_text {
             font-size: 24px;
             padding-right: 20%;
             line-height: 1.5;
             font-weight: 300;
-            // padding-bottom: $spacing-xxl;
+            @include mobile {
+                padding-right: 0;
+            }
         }  
         
     }
@@ -52,5 +67,13 @@
         position: relative;
         left: 85px;
         top: 60px;
+        @include mobile {
+            left: 50%;
+            right: 50%;
+            transform: translate(-50%, -50%) !important;
+            top: 150px;
+            padding-left: 10%;
+            padding: 0;
+        }
     }
 }

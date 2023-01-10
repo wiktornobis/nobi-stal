@@ -18,6 +18,9 @@
   // color: $color-white;
   font-size: $size-base-font;
 }
+#root {
+  height: 100vh
+}
 
 @function strip-unit($value) {
   @return $value / ($value * 0 + 1);
@@ -68,7 +71,7 @@ a {
   display: flex;
 }
 h2 {
-  font-size: 40px;
+  font-size: 48px;
   color: $color-text;
 }
 h3 {
@@ -135,3 +138,105 @@ li {
 //   max-width: 2200px;
 //   margin: 0 auto;
 // }
+
+@include desktop {
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 22px !important;
+  }
+  h4 {
+    font-size: 18px !important;
+  }
+  p {
+    font-size: 20px !important;
+  }
+
+}
+@include tablet {
+  h2 {
+    font-size: 27px !important;
+  }
+  h3 {
+    font-size: 16px !important;
+  }
+    h4 {
+    font-size: 14px !important;
+  }
+  p {
+    font-size: 16px !important;
+  }
+  li {
+    font-size: 14px !important;
+  }
+}
+@include mobile {
+  h2 {
+    font-size: 22px !important;
+  }
+  h3 {
+    font-size: 14px !important;
+  }
+    h4 {
+    font-size: 14px !important;
+  }
+  p {
+    font-size: 13px !important;
+  }
+  li {
+    font-size: 13px !important;
+  }
+}
+
+.CookieConsent {
+  max-width: 420px;
+  height: auto;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+  padding: 30px 20px;
+  border-radius: 3px;
+  left: 0% !important;
+  right: 0% !important;
+  bottom: 20% !important;
+  margin: 0 auto;
+  text-align: justify;
+  background: rgb(226, 226, 226); 
+  @include mobile {
+    max-width: 90%;
+  }
+  button {
+    text-transform: uppercase;
+    background: rgb(16, 16, 16) !important;
+    border-radius: 6px !important;
+    @include mobile {
+      font-size: 12px !important;
+    }
+  }
+  span {
+    @include mobile {
+      font-size: 13px !important;
+    }
+  }
+  div {
+    &:first-of-type {
+      flex: 1 0 320px !important;
+      @include mobile {
+        flex: 1 0 300px !important;
+      }
+    }
+  }
+  .logo {
+    width: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    @include mobile {
+      width: 130px;
+    }
+  }
+}

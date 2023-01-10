@@ -1,4 +1,4 @@
-@import '../../utils/variables';
+@import '../../utils/breakpoints';
 
 .catalog {
     margin-bottom: $spacing-xl;
@@ -12,6 +12,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    @include mobile {
+        gap: 35px;
+        margin: 0 6%;
+        padding: 40px 0;
+    }
    }
     &_title,
     &_text {
@@ -31,6 +36,12 @@
         }
         &_text {
             font-size: 18px;
+            @include tablet {
+                font-size: 14px;
+            }
+            @include mobile {
+                font-size: 12px;
+            }
         }
     }
 }

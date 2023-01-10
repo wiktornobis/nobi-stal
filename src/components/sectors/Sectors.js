@@ -7,23 +7,26 @@ import img2 from '../../assets/maszynyrolnicze.jpg'
 import img3 from '../../assets/gornictwo.jpg'
 import { useEffect } from 'react';
 
+import { useTranslation} from 'react-i18next';
+
 function Sectors() {
+    const { t } = useTranslation();
     useEffect(() => {
-        Aos.init({ duration: 2000 })
+        Aos.init({ duration: 3000 })
     }, [])
     return (
         <section className="sectors" data-aos="fade-up">
             <div className="sectors_article">
                 <img class="defer-image is-loaded image-ratio:61 applied-default" src={img1} alt="" />
-                <h3 className="sectors_article_title">Budownictwo</h3>
+                <h3 className="sectors_article_title">{t('about.title')}</h3>
             </div>
             <div className="sectors_article">
                 <img class="defer-image is-loaded image-ratio:61 applied-default" src={img2} alt="" />
-                <h3 className="sectors_article_title">Rolnictwo</h3>
+                <h3 className="sectors_article_title">{t('sectors.industry2')}</h3>
             </div>
             <div className="sectors_article">
                 <img class="defer-image is-loaded image-ratio:61 applied-default" src={img3} alt="" />
-                <h3 className="sectors_article_title">Górnictwo</h3>
+                <h3 className="sectors_article_title">{t('sectors.industry3')}</h3>
             </div>
         </section>
     );

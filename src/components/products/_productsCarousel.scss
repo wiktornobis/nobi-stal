@@ -3,6 +3,9 @@
 
 .products_box {
     margin-top: $spacing-xxl;
+    @include mobile {
+        margin-top: $spacing-lg;
+     }
     &_title {
         margin-bottom: $spacing-sm;
     }
@@ -10,8 +13,54 @@
 
 .products { 
     margin: 100px 0;
+    @include mobile {
+        margin: $spacing-lg 0;
+     }
     .product {
-        padding: 10px;
+        background-color: $color-column;
+        height: 100%;
+        text-align: center;
+
+        @include tablet {
+            height: 100%;
+        }
+        @include mobile {
+            height: 100%;
+        }
+        img {
+            height: 450px;
+            padding: 90px 80px;
+            cursor: pointer;
+            @include full-hd {
+                padding: 80px 60px;
+                height: 350px;
+            }
+            @include desktop {
+                height: 320px;
+                padding: 80px 75px;
+            }
+            @include tablet {
+                padding: 60px ;
+                height: 300px;
+            }
+            @include mobile {
+                padding: 40px 70px;
+                height: 300px;
+            }
+        }
+        .items_text {
+            margin: 20px 0;
+        }
+        .items_title {
+            padding-bottom: 60px;
+            @include mobile {
+                padding-bottom: 30px;
+            }
+        }
     }    
 }
 
+.slick-slide {
+    // margin: 0 5px;
+    border: 4px solid white;
+}
